@@ -1,11 +1,8 @@
 .footer {
-
+    display: flex;
+    justify-content: center;
 }
 
 .footerIcon {
-
-}
-
-.footerLink {
-    
+    color: rgb(43, 58, 85)
 }
