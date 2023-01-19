@@ -50,3 +50,5 @@ function Navigation() {
 }
 
 export default Navigation;
+
+//dropdown menu that expands on hover, links to pages for home, about me, contact, projects, and resume
