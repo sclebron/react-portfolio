@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./navBar.css";
+import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 import { GiHamburgerMenu } from "react-icons/gi";
 
