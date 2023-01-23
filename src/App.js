@@ -1,4 +1,7 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import footer from './components/footer/footer.js';
+
 import './App.css';
 
 function App() {
