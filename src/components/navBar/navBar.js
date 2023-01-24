@@ -11,9 +11,10 @@ function Navigation() {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+        <Dropdown.Item href="#/action-1">About Me</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Contact</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Projects</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Resume</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
   );
