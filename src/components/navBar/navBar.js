@@ -2,7 +2,6 @@ import React from "react";
 import "./navBar.css";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navigation() {
   return (
@@ -49,6 +48,6 @@ function Navigation() {
   );
 }
 
-export default Navigation;
+export default navBar;
 
 //dropdown menu that expands on hover, links to pages for home, about me, contact, projects, and resume
