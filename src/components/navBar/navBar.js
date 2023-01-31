@@ -3,7 +3,7 @@ import "./navBar.css";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 
-function Navigation() {
+function navBar() {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -22,4 +22,4 @@ function Navigation() {
 
 export default navBar;
 
-//dropdown menu that expands on hover, links to pages for home, about me, contact, projects, and resume
+//dropdown menu that expands on click, links to pages for home, about me, contact, projects, and resume
