@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <homepage>
+        <homepage/>
           <Routes>
             <Route path=''/>
             <Route path='/aboutMe' element={<aboutMe/>}/>
@@ -21,7 +21,6 @@ function App() {
             <Route path=''/>
             <Route path=''/>
           </Routes>
-        </homepage>
       </Router>
     </>
   );

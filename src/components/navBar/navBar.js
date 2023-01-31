@@ -22,4 +22,4 @@ function navBar() {
 
 export default navBar;
 
-//dropdown menu that expands on click, links to pages for home, about me, contact, projects, and resume
+//dropdown menu that expands on click, links to pages for about me, contact, projects, and resume
