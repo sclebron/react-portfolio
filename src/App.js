@@ -16,7 +16,7 @@ function App() {
         <homepage/>
           <Routes>
             <Route path=''/>
-            <Route path='./pages/aboutMe' element={<aboutMe/>}/>
+            <Route path='aboutMe' element={<aboutMe/>}/>
             <Route path=''/>
             <Route path=''/>
             <Route path=''/>
