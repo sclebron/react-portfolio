@@ -8,6 +8,7 @@ import contact from './pages/contact/contact.js';
 import homepage from './pages/homepage/homepage.js';
 import projects from './pages/projects/projects.js';
 import resume from './pages/resume/resume.js';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
 function App() {
@@ -17,11 +18,11 @@ function App() {
         <header />
         <div>
           <Routes>
-            <Route path=''/>
             <Route path='aboutMe' element={<aboutMe/>}/>
-            <Route path=''/>
-            <Route path=''/>
-            <Route path=''/>
+            <Route path='contact' element={<contact/>}/>
+            <Route path='homepage' element={<homepage/>}/>
+            <Route path='projects' element={<projects/>}/>
+            <Route path='resume' element={<resume/>}/>
           </Routes>
           </div>
         <footer />
