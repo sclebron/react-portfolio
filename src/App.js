@@ -17,11 +17,11 @@ function App() {
         <header />
         <div>
           <Routes>
-            <Route path='aboutMe' element={<aboutMe/>}/>
-            <Route path='contact' element={<contact/>}/>
-            <Route path='homepage' element={<homepage/>}/>
-            <Route path='projects' element={<projects/>}/>
-            <Route path='resume' element={<resume/>}/>
+            <Route path='/aboutMe' component={aboutMe}/>
+            <Route path='/contact' component={contact}/>
+            <Route path='/homepage' component={homepage}/>
+            <Route path='/projects' component={projects}/>
+            <Route path='/resume' component={resume}/>
           </Routes>
           </div>
         <footer />
