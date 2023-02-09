@@ -12,6 +12,7 @@ import './App.css';
 
 function App() {
   return (
+    <>
       <Router>
         <header />
         <div>
@@ -25,6 +26,7 @@ function App() {
           </div>
         <footer />
       </Router>
+    </>
   );
 }
 
