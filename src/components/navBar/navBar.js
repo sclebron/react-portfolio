@@ -3,7 +3,7 @@ import "./navBar.css";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 
-export default function navBar() {
+function NavBar() {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-basic">
@@ -19,5 +19,7 @@ export default function navBar() {
     </Dropdown>
   );
 }
+
+export default NavBar;
 
 //dropdown menu that expands on click, links to pages for about me, contact, projects, and resume
