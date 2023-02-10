@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail } from 'react-icons/ai';
 
-function footer() {
+function Footer() {
     return (
         <div className='footer'>
             <a 
@@ -30,4 +30,4 @@ function footer() {
     );
 }
 
-export default footer;
+export default Footer;
