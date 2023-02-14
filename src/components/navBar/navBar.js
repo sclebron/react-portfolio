@@ -7,15 +7,15 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About Me</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
-            <Nav.Link href="#link">Resume</Nav.Link>
+            <Nav.Link href="#homepage">Home</Nav.Link>
+            <Nav.Link href="#aboutMe">About Me</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#resume">Resume</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
