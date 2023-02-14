@@ -10,7 +10,7 @@ function NavBar() {
     <Navbar expand="lg">
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" color="white">
             <Nav.Link href="#homepage">Home</Nav.Link>
             <Nav.Link href="#aboutMe">About Me</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
