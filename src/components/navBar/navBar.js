@@ -7,10 +7,10 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    <Navbar color="white" expand="lg">
+    <Navbar expand="lg">
       <Container>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" color="white">
+        <Navbar.Collapse color="white" id="basic-navbar-nav">
+          <Nav className="me-auto">
             <Nav.Link href="#homepage">Home</Nav.Link>
             <Nav.Link href="#aboutMe">About Me</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
