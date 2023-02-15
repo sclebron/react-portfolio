@@ -1,6 +1,6 @@
 import React from 'react';
 
-function aboutMe() {
+function AboutMe() {
     return (
         <div>
             Sophie LeBron
@@ -8,4 +8,4 @@ function aboutMe() {
     )
 }
 
-export default aboutMe;
+export default AboutMe;
