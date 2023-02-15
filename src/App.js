@@ -16,7 +16,7 @@ function App() {
         <Header />
         <div>
           <Routes>
-            <Route path='/AboutMe' element={AboutMe}/>
+            <Route path='/AboutMe' component={AboutMe}/>
             <Route path='/Contact' component={Contact}/>
             <Route path='/Homepage' component={Homepage}/>
             <Route path='/Projects' component={Projects}/>
