@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import footer from './components/footer/footer.js';
+import Footer from './components/footer/footer.js';
 import Header from './components/header/header.js';
 import aboutMe from './pages/aboutMe/aboutMe.js';
 import contact from './pages/contact/contact.js';
@@ -16,14 +16,14 @@ function App() {
         <Header />
         <div>
           <Routes>
-            <Route path='/aboutMe' component={aboutMe}/>
+            <Route path='/aboutMe' element={aboutMe}/>
             <Route path='/contact' component={contact}/>
             <Route path='/homepage' component={homepage}/>
             <Route path='/projects' component={projects}/>
             <Route path='/resume' component={resume}/>
           </Routes>
           </div>
-        <footer />
+        <Footer />
       </Router>
   );
 }
