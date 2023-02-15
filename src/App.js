@@ -4,9 +4,9 @@ import Footer from './components/footer/footer.js';
 import Header from './components/header/header.js';
 import AboutMe from './pages/aboutMe/AboutMe.js';
 import Contact from './pages/contact/Contact.js';
-import Homepage from './pages/Homepage/Homepage.js';
-import Projects from './pages/Projects/Projects.js';
-import Resume from './pages/Resume/Resume.js';
+import Homepage from './pages/homepage/Homepage.js';
+import Projects from './pages/projects/Projects.js';
+import Resume from './pages/resume/Resume.js';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
