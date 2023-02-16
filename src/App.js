@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Switch, Route } from 'react-router-dom';
 import Footer from './components/footer/footer.js';
 import Header from './components/header/header.js';
 import AboutMe from './pages/aboutMe/aboutMe.js';
@@ -16,11 +16,13 @@ function App() {
         <Header />
         <div>
           <Routes>
-            <Route path='/AboutMe' component={AboutMe}/>
-            <Route path='/Contact' component={Contact}/>
-            <Route path='/' component={Homepage}/>
-            <Route path='/Projects' component={Projects}/>
-            <Route path='/Resume' component={Resume}/>
+            <Switch>
+              <Route path='/AboutMe' component={AboutMe}/>
+              <Route path='/Contact' component={Contact}/>
+              <Route path='/' component={Homepage}/>
+              <Route path='/Projects' component={Projects}/>
+              <Route path='/Resume' component={Resume}/>
+            </Switch>
           </Routes>
           </div>
         <Footer />
