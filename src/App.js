@@ -16,7 +16,7 @@ function App() {
         <Header />
         <div>
           <Routes>
-            <Route path='/AboutMe' element={<AboutMe/>}/>
+            <Route path='#AboutMe' element={<AboutMe/>}/>
             <Route path='/Contact' element={<Contact/>}/>
             <Route path='/' element={<Homepage/>}/>
             <Route path='/Projects' element={<Projects/>}/>
