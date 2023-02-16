@@ -15,15 +15,13 @@ function App() {
       <Router>
         <Header />
         <div>
-          <Routes>
-            <Switch>
-              <Route path='/AboutMe' component={AboutMe}/>
-              <Route path='/Contact' component={Contact}/>
-              <Route path='/' component={Homepage}/>
-              <Route path='/Projects' component={Projects}/>
-              <Route path='/Resume' component={Resume}/>
-            </Switch>
-          </Routes>
+          <Switch>
+            <Route path='/AboutMe' component={AboutMe}/>
+            <Route path='/Contact' component={Contact}/>
+            <Route path='/' component={Homepage}/>
+            <Route path='/Projects' component={Projects}/>
+            <Route path='/Resume' component={Resume}/>
+          </Switch>
           </div>
         <Footer />
       </Router>
