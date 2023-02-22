@@ -1,12 +1,12 @@
 import React from 'react';
 import './homepage.css';
 
-function homepage() {
+function Homepage() {
     return (
         <div>
-
+            Hi!
         </div>
     );
 }
 
-export default homepage;
+export default Homepage;
