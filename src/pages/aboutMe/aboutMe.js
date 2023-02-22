@@ -5,7 +5,9 @@ function AboutMe() {
     return (
         <div className="container">
             <div className="header">About Me</div>
-            Sophie LeBron
+                <div className="bio">
+                    <p></p>
+                </div>
         </div>
     )
 }
