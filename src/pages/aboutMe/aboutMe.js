@@ -3,7 +3,8 @@ import "./aboutMe.css";
 
 function AboutMe() {
     return (
-        <div>
+        <div className="container">
+            <div className="heaader">About Me</div>
             Sophie LeBron
         </div>
     )
