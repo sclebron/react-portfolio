@@ -23,10 +23,10 @@ function App() {
             <Route path='/#Projects' element={<Projects/>}/>
             <Route path='/#Resume' element={<Resume/>}/>
           </Routes>
-          </div>
+        </div>
         <Footer />
       </Router>
-      </>
+    </>
   );
 }
 
