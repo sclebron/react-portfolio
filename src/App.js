@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/footer/footer.js';
 import Header from './components/header/header.js';
 import AboutMe from './pages/aboutMe/aboutMe.js';
@@ -12,17 +12,17 @@ import './App.css';
 
 function App() {
   return (
-    <Routes>
+    <Router>
         <Header />
-        <div>
+        <Routes>
             <Route path='/#AboutMe' element={<AboutMe/>}/>
             <Route path='/#Contact' element={<Contact/>}/>
             <Route path='/' element={<Homepage/>}/>
             <Route path='/#Projects' element={<Projects/>}/>
             <Route path='/#Resume' element={<Resume/>}/>
-        </div>
+        </Routes>
         <Footer />
-    </Routes>
+    </Router>
   );
 }
 
