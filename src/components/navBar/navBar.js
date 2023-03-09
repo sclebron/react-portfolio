@@ -3,6 +3,7 @@ import "./navBar.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+//# in url is causing issue. change the navigation and routes to not include that, may need new bootstrap navbar
 
 function NavBar() {
   return (
