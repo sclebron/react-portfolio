@@ -7,20 +7,34 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="">Home</Nav.Link>
-            <Nav.Link href="AboutMe">About Me</Nav.Link>
-            <Nav.Link href="Contact">Contact</Nav.Link>
-            <Nav.Link href="Projects">Projects</Nav.Link>
-            <Nav.Link href="Resume">Resume</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <header className="headerNav">
+      <div className="navBar">
+        <Link to="/Resume">
+          <button className="navBtn" id="resume">
+            Resume
+          </button>
+        </Link>
+      </div>
+    </header>
   );
 }
 
 export default NavBar;
+
+// function NavBar() {
+//   return (
+//     <Navbar bg="light" expand="lg">
+//       <Container>
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <Nav className="me-auto">
+//             <Nav.Link href="">Home</Nav.Link>
+//             <Nav.Link href="AboutMe">About Me</Nav.Link>
+//             <Nav.Link href="Contact">Contact</Nav.Link>
+//             <Nav.Link href="Projects">Projects</Nav.Link>
+//             <Nav.Link href="Resume">Resume</Nav.Link>
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Container>
+//     </Navbar>
+//   );
+// }
