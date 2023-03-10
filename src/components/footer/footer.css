@@ -1,7 +1,6 @@
 .footer {
     display: flex;
     justify-content: center;
-    bottom: 10px;
 }
 
 .footerIcon {
@@ -9,4 +8,5 @@
     height: 40px;
     width: 40px;
     margin: 15px;
+    bottom: 10px;
 }
