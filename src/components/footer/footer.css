@@ -1,14 +1,12 @@
 .footer {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .footerIcon {
     color: #F05454;
     height: 40px;
     width: 40px;
-    margin: 15px;
     position: absolute;
     bottom: 0px;
 }
