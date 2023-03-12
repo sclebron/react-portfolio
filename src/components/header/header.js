@@ -3,7 +3,7 @@ import NavBar from '../navBar/navBar.js';
 
 function Header() {
     return (
-        <div>
+        <div className="header">
             <NavBar/>
         </div>
     );
