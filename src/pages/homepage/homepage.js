@@ -3,8 +3,8 @@ import './homepage.css';
 
 function Homepage() {
     return (
-        <div>
-            Hi!
+        <div className="name">
+            Sophie LeBron
         </div>
     );
 }

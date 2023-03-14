@@ -6,6 +6,11 @@ function NavBar() {
   return (
     <header className="headerNav">
       <div className="navBar">
+      <Link to="/">
+          <button className="navBtn" id="homepage">
+            Home
+          </button>
+        </Link>
         <Link to="/AboutMe">
           <button className="navBtn" id="aboutme">
             AboutMe
