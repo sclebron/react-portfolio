@@ -4,7 +4,7 @@ import './resume.css';
 function Resume () {
     return (
         <div>
-
+            <div className="title">Resume</div>
         </div>
     );
 }

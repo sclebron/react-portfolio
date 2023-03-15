@@ -4,7 +4,7 @@ import "./projects.css";
 function Projects() {
     return (
         <div className="container">
-            <div className="header">Projects</div>
+            <div className="title">Projects</div>
                 <div className="bio">
                     <p></p>
                 </div>
