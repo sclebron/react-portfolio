@@ -5,6 +5,9 @@ function Homepage() {
     return (
         <div className="name">
             Sophie LeBron
+        </div>,
+        <div>
+            Full Stack Developer
         </div>
     );
 }
