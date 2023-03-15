@@ -1,10 +1,13 @@
 .navBar {
     display: flex;
     justify-content: flex-end;
+    align-items: space-between;
 }
 
 .navBtn {
     color: #F05454;
+    background-color: #222831;
+    font-size: 25px;
 }
 
 /*increase text size of buttons
@@ -12,4 +15,6 @@ increase space between buttons
 change font? or maybe bold font/change font style?
 change text color
 increase text size or add shadow on hover
+change background color of buttons 
+no outline on buttons
  */
