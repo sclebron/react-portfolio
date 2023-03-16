@@ -9,16 +9,15 @@
     font-size: 20px;
     margin-left: 8px;
     margin-right: 8px;
-    font-style: bold;
+    outline: none;
 }
 
 .navBtn:hover {
-    font-size: 23px;
-    text-shadow: #30475E;
+    font-size: 21px;
+    text-shadow: #898d90;
 }
 
 /*
-change font? or maybe bold font/change font style?
 increase text size or add shadow on hover
 no outline on buttons
  */
