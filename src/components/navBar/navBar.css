@@ -1,13 +1,14 @@
 .navBar {
     display: flex;
     justify-content: flex-end;
-    align-items: space-between;
 }
 
 .navBtn {
     color: #F05454;
     background-color: #222831;
     font-size: 20px;
+    display: flex;
+    align-items: space-between;
 }
 
 /*
