@@ -12,8 +12,12 @@
     font-style: bold;
 }
 
+.navBtn:hover {
+    font-size: 23px;
+    text-shadow: #30475E;
+}
+
 /*
-increase space between buttons
 change font? or maybe bold font/change font style?
 increase text size or add shadow on hover
 no outline on buttons
