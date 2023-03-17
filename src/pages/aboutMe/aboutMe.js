@@ -6,7 +6,7 @@ function AboutMe() {
         <div className="container">
             <div className="title">About Me</div>
                 <div className="bio">
-                    <p></p>
+                    <p>Hi! My name is Sophie and I'm a full-stack developer based in Denver, CO.</p>
                 </div>
         </div>
     );
