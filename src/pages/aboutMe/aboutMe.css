@@ -1,5 +1,16 @@
 .title {
     color: #DDDDDD;
     text-align: center;
+    font-size: 60px;
 }
+
+.bio {
+    color: #DDDDDD;
+    text-align: center;
+}
+
+/*increase text size of title
+center bio 
+increase text size of bio
+*/
 
