@@ -1,9 +1,9 @@
 .footer {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
+    /* position: absolute; */
+    bottom: 10px;
+    /* height: 2.5rem; */
 }
 
 .footerIcon {
