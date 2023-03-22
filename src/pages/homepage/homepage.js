@@ -6,7 +6,7 @@ function Homepage() {
         <div className="name">
             Sophie LeBron
         </div>,
-        <div>
+        <div className="title">
             Full Stack Developer
         </div>
     );

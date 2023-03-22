@@ -15,5 +15,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-
-/*three sections - opening intro line, work info, personal info*/
