@@ -1,12 +1,13 @@
 import React from 'react';
 import './contact.css';
+import emailForm from './emailForm.js'
 
 function Contact() {
     return (
         <div class="title">Contact
-            <div>Connect with me on Github!</div>
-            <div>Connect with me on LinkedIn!</div>
-            <div>Send me an email!</div>
+            <div>
+                <Form/>
+            </div>
         </div>
     )
 }
