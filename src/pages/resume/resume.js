@@ -1,5 +1,7 @@
 import React from 'react';
 import './resume.css';
+import resumeimg from './ResumeScreenshot.jpg';
+import resume from './Sophie_LeBron_Resume.pdf';
 
 function Resume () {
     return (
