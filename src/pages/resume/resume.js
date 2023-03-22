@@ -8,9 +8,9 @@ function Resume () {
         <div>
             <div className="title">Resume</div>
             <img src={resumeimg} className="resumeimg" />
-            <a href={resume} download>
+            {/* <a href={resume} download>
                 <button className="resumedownload">Download Resume</button>
-            </a>
+            </a> */}
         </div>
     );
 }
