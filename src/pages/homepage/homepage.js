@@ -5,7 +5,7 @@ function Homepage() {
     return (
         <div className="name">
             Sophie LeBron
-            <div className="title">
+            <div className="subtitle">
                 Full Stack Developer
             </div>
         </div>
