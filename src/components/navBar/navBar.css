@@ -4,8 +4,7 @@
 }
 
 .navBtn {
-    color: #F05454;
-    background-color: black;
+    color: white;
     font-size: 20px;
     margin-left: 8px;
     margin-right: 8px;
@@ -14,5 +13,5 @@
 
 .navBtn:hover {
     font-size: 22px;
-    color: white;
+    color: black;
 }
