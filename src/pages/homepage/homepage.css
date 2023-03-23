@@ -21,7 +21,7 @@
 .name {
     text-align: center;
     font-size: 50px;
-    color: #F05454;
+    color: white;
     font-weight: bold;
 }
 /*typing animation?*/
@@ -29,6 +29,6 @@
 .subtitle {
     text-align: center;
     font-size: 45px;
-    color: #F05454;
+    color: white;
     font-weight: bold;
 }
