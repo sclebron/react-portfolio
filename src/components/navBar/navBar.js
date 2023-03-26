@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <header className="headerNav">
       <div className="navBar">
       <Link to="/react-portfolio/">
           <button className="navBtn" id="homepage">
@@ -32,7 +31,6 @@ function NavBar() {
           </button>
         </Link>
       </div>
-    </header>
   );
 }
 
