@@ -4,8 +4,8 @@ import './homepage.css';
 function Homepage() {
     return (
         <div className="home">
-            Sophie LeBron \n
-            Full Stack Developer
+            <p>Sophie LeBron</p>
+            <p>Full Stack Developer</p>
         </div>
     );
 }
