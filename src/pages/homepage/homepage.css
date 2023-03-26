@@ -1,7 +1,8 @@
 .home {
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     /* background: linear-gradient(-45deg, black, #212529, #343a40, #495057, #6c757d, #adb5bd, #ced4da); */
-    background: linear-gradient(-45deg, #355070, #6d597a, #b56576, #e56b6f, #eaac8b);
+    /* background: linear-gradient(-45deg, #355070, #6d597a, #b56576, #e56b6f, #eaac8b); */
+    background: linear-gradient(-45deg, #ff9f1c, #ffbf69, #ffffff, #cbf3f0, #2ec4b6);
     background-size: 400%, 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -25,7 +26,6 @@
     color: white;
     font-weight: 100;
 }
-/*typing animation?*/
 
 .subtitle {
     text-align: center;

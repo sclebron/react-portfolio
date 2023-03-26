@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/footer/footer.js';
-import Header from './components/header/header.js';
+import NavBar from './components/navBar/navBar.js';
 import AboutMe from './pages/aboutMe/aboutMe.js';
 import Contact from './pages/contact/contact.js';
 import Homepage from './pages/homepage/homepage.js';
@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-        <Header />
+        <NavBar />
         <Routes>
             <Route path='/AboutMe' element={<AboutMe/>}/>
             <Route path='/Contact' element={<Contact/>}/>
