@@ -2,7 +2,7 @@
     /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     /* background: linear-gradient(-45deg, black, #212529, #343a40, #495057, #6c757d, #adb5bd, #ced4da); */
     /* background: linear-gradient(-45deg, #355070, #6d597a, #b56576, #e56b6f, #eaac8b); */
-    background: linear-gradient(-45deg, #d4e09b, #f6f4d2, #cbdfbd, #f19c79, #a44a3f);
+    background: linear-gradient(-45deg, #012a4a, #013a63, #01497c, #014f86, #2a6f97, #2c7da0, #468faf, #61a5c2, #89c2d9, #a9d6e5);
     background-size: 400%, 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -24,12 +24,12 @@
     text-align: center;
     font-size: 55px;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .subtitle {
     text-align: center;
     font-size: 45px;
     color: white;
-    font-weight: 200;
+    font-weight: 300;
 }
