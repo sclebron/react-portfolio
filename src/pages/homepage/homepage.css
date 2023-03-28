@@ -6,6 +6,11 @@
     height: 100vh;
 }
 
+.text {
+    font-size: 16pt;
+    line-height: 20pt;
+}
+
 /* .name {
     text-align: center;
     font-size: 55px;
