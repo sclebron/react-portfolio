@@ -1,85 +1,83 @@
-.home {
-    $quantity: 15;
+.firefly-container  {
+  .firefly {
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      pointer-events: none;
+      width: 0.4vw;
+      height: 0.4vw;
+      margin: -0.2vw 0 0 9.8vw;
 
-html, body {
-    height: 100%;
-}
+      &::before, &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          transform-origin: -10vw;
+      }
 
-body {
-  background-color: #000;
-  background-size: cover;
-}
-    
-.firefly {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  width: 0.4vw;
-  height: 0.4vw;
-  margin: -0.2vw 0 0 9.8vw;
-  animation: ease 200s alternate infinite;
-  pointer-events: none;
-}
+      &::before {
+          background: var(--bk-color);
+          opacity: 0.4;
+          animation: drift ease alternate infinite;
+      }
 
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    transform-origin: -10vw;
-  }
-  
-  &::before {
-    background: black;
-    opacity: 0.4;
-    animation: drift ease alternate infinite;
-  }
-  
-  &::after {
-    background: white;
-    opacity: 0;
-    box-shadow: 0 0 0vw 0vw yellow;
-    animation: drift ease alternate infinite, flash ease infinite;
+      &::after {
+          background: white;
+          opacity: 0;
+          box-shadow: 0 0 0vw 0vw var(--light-color);
+          animation: drift ease alternate infinite, flash ease infinite;
+      }
+
+      animation: ease 200s alternate infinite
   }
 
-  
-// Randomize Fireflies Motion
-@for $i from 1 through $quantity {
-  
-  $steps: random(12) + 16;
-  $rotationSpeed: random(10) + 8s;
-}
-  
-  .firefly:nth-child(#{$i}) {
-    animation-name: move#{$i};
+  $flyQty: 40; // max qty
+  @for $i from 1 through $flyQty {
+      $steps: random(12) + 16;
+      $rotateSpeed: random(10) + 8s;
+      @keyframes move#{$i} {
+          @for $step from 0 to $steps {
+              #{percentage($step / ($steps - 1.0))} {
+                  transform: translateX(random(100) - 50vw) translateY(random(100) - 50vh) scale(random(75) / 100 + 0.25)
+              }
+          }
+      }
+
+      .firefly:nth-child(#{$i}) {
+          animation-name: move#{$i};
+
+          &::before {
+              animation-duration: $rotateSpeed;
+          }
+
+          &::after {
+              animation-duration: $rotateSpeed, random(6) + 5s;
+              animation-delay: 0s, random(5000) + 0ms;
+          }
+      }
   }
-    &::before {
-      animation-duration: #{$rotationSpeed};
-    }
 
-    &::after {
-      animation-duration: #{$rotationSpeed}, random(6000) + 5000ms;
-      animation-delay: 0ms, random(8000) + 500ms;
-    }
+  @keyframes drift {
+      0% {
+          transform: rotate(0deg);
+      }
 
-  @keyframes move#{$i} 
-    @for $step from 0 through $steps 
-      #{$step * (100 / $steps)}% 
-        transform: translateX(random(100) - 50vw) translateY(random(100) - 50vh) scale(random(75) / 100 + .25)
+      100% {
+          transform: rotate(360deg);
+      }
+  }
 
-@keyframes drift
-  0%
-    transform: rotate(0deg)
-  100%
-    transform: rotate(360deg)
+  @keyframes flash {
+      0%, 30%, 100% {
+          opacity: 0;
+          box-shadow: 0 0 0vw 0vw var(--light-color);
+      }
 
-@keyframes flash
-  0%, 30%, 100%
-    opacity: 0
-    box-shadow: 0 0 0vw 0vw yellow
-  5%
-    opacity: 1
-    box-shadow: 0 0 2vw 0.4vw yellow
+      5% {
+          opacity: 1;
+          box-shadow: 0 0 2vw 0.4vw var(--light-color);
+      }
+  }
 }
