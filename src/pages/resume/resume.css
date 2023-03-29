@@ -1,4 +1,8 @@
+.resume-container {
+    min-height: 80vh;
+}
+
 .resumeimg {
-    align-items: center;
-    margin: 20%;
+    height: 70vh;
+    margin-bottom: 20px;
 }

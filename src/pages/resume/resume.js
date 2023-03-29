@@ -5,7 +5,7 @@ import resume from './Sophie_LeBron_Resume.pdf';
 
 function Resume () {
     return (
-        <div>
+        <div className="resume-container">
             <div className="title">Resume</div>
             <img src={resumeimg} className="resumeimg" />
             <a href={resume} download>
