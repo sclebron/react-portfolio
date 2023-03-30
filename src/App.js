@@ -7,8 +7,9 @@ import Contact from './pages/contact/contact.js';
 import Homepage from './pages/homepage/homepage.js';
 import Projects from './pages/projects/projects.js';
 import Resume from './pages/resume/resume.js';
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Particles from 'react-particles';
 
 function App() {
   return (
