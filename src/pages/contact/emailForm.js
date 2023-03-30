@@ -1,9 +1,8 @@
 import React, { useState, useRef } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { AiOutlineLinkedin, AiOutlineGithub } from "react-icons/ai";
 
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "./validateEmail.js";
 import emailjs from "@emailjs/browser";
 
 function emailForm() {
