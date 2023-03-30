@@ -3,7 +3,7 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 
 import { validateEmail } from "./validateEmail.js";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 
 function emailForm() {
     const form = useRef();
