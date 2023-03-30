@@ -25,7 +25,7 @@ function App() {
         }
       },
       "interactivity": {
-        "events:" {
+        "events": {
           "onhover": {
             "enable": true,
             "mode": "repulse"
