@@ -1,6 +1,17 @@
 import React from 'react';
 import "./projects.css";
 
+function Project() {
+    const projects = [
+        {
+        title: "Real-Time Commodities",
+        description: "ahfdisl",
+        img: Real-TimeCommodities,
+        link: "google.com",
+        }
+    ]
+}
+
 function Projects() {
     return (
         <div className="container">
