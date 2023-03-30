@@ -6,7 +6,7 @@ function Project() {
         {
         title: "Real-Time Commodities",
         description: "ahfdisl",
-        img: Real-TimeCommodities,
+        // img: Real-TimeCommodities,
         link: "google.com",
         }
     ]
