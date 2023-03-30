@@ -16,15 +16,22 @@ function App() {
     <div className="App">
     <Particles 
     params={{
-      particles: {
-        number: {
-          value: 200,
-          density: {
-            enable: true,
-            value_area: 1000,
-          }
+      "particles": {
+        "number": {
+          "value": 150
         },
+        "size": {
+          "value": 3
+        }
       },
+      "interactivity": {
+        "events:" {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          }
+        }
+      }
     }}
     />
     <Router>
