@@ -17,7 +17,10 @@ function Particle() {
     }, []);
 
     return (
-        <Particles />
+        <Particles 
+            id="tsparticles"
+                init={particlesInit}
+        />
     )
 }
 
