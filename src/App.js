@@ -9,7 +9,7 @@ import Projects from './pages/projects/projects.js';
 import Resume from './pages/resume/resume.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Particles from 'react-particles';
+import Particles from './components/particles/Particle';
 
 //error with installing react-particles-js
 

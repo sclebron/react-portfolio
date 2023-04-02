@@ -94,7 +94,6 @@ function Particle() {
                     },
                     detectRetina: true,
                 }}
-                }
         />
     );
 };
