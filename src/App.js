@@ -16,26 +16,7 @@ import Particles from './components/particles/Particle';
 function App() {
   return (
     <div className="App">
-    <Particles 
-    params={{
-      "particles": {
-        "number": {
-          "value": 150
-        },
-        "size": {
-          "value": 3
-        }
-      },
-      "interactivity": {
-        "events": {
-          "onhover": {
-            "enable": true,
-            "mode": "repulse"
-          }
-        }
-      }
-    }}
-    />
+    <Particles />
     <Router>
         <NavBar />
         <Routes>
