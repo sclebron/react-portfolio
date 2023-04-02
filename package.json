@@ -21,6 +21,7 @@
     "react-tsparticles": "^2.9.3",
     "sass": "^1.60.0",
     "save": "^2.9.0",
+    "tsparticles": "^2.9.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
