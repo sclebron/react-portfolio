@@ -2,17 +2,12 @@
     min-height: 80vh;
 }
 
+.resume-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .resumeimg {
     height: 70vh;
     margin-bottom: 20px;
-}
-
-@media screen and (max-width: 768px) {
-    a button {
-        width: 30vw;
-    }
-    .resume {
-        justify-content: flex-start;
-        margin-top: 25px;
-    }
 }
