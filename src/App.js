@@ -11,8 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Particles from './components/particles/particles.jsx';
 
-//error with installing react-particles-js
-
 function App() {
   return (
     <div className="App">
