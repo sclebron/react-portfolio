@@ -5,8 +5,8 @@ function Homepage() {
     return (
         <div className="firefly-container">
         <div className="home">
-            <span className="name">Sophie LeBron</span>
-            <h2 className="title">Full Stack Developer</h2>
+            <span className="name">Hello, I'm Sophie LeBron.</span>
+            <h2 className="title">I'm a full stack developer.</h2>
         </div>
         </div>
     );
