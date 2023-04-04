@@ -34,10 +34,6 @@ function Particle() {
                         },
                         "color": {
                             // "value": "#ffffff"
-                            "value": "#FF6768",
-                            "value": "#6B778D",
-                            "value": "#263859",
-                            "value": "#17223B"
                         },
                         "shape": {
                             "type": "circle",
