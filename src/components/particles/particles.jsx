@@ -33,7 +33,7 @@ function Particle() {
                             }
                         },
                         "color": {
-                            // "value": "#ffffff"
+                            "value": "#FF6768"
                         },
                         "shape": {
                             "type": "circle",
