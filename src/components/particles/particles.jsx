@@ -56,7 +56,7 @@ function Particle() {
                             }
                         },
                         "size": {
-                            "value": 3,
+                            "value": 0,
                             "random": true,
                             "anim": {
                             "enable": false,
