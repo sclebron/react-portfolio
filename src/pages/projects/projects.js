@@ -17,7 +17,35 @@ function Projects() {
         <div className="container">
             <div className="title">Projects</div>
                 <div className="bio">
-                    <p></p>
+                <Row className="justify-content-center">
+        <Col xs={12} md={6}>
+            {projects.map((projects) => (
+            <div className="projectCards">
+                <div className="card">
+                {/* <img
+                    className="card-img-top"
+                    src={projects.img}
+                    alt="Project screenshot"
+                /> */}
+                <div className="card-body">
+                    <h5 className="card-title">{projects.title}</h5>
+                    <p className="card-text">{projects.description}</p>
+                    <a href={projects.repo} target="_blank" className="card-link">
+                    Github
+                    </a>
+                    <a
+                    href={projects.livelink}
+                    target="_blank"
+                    className="card-link"
+                    >
+                    Deploy
+                    </a>
+                </div>
+                </div>
+            </div>
+            ))}
+        </Col>
+        </Row>
                 </div>
         </div>
     );
