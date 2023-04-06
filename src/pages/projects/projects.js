@@ -35,7 +35,7 @@ function Projects() {
                     Github
                     </a>
                     <a
-                    href={projects.livelink}
+                    href={projects.link}
                     target="_blank"
                     className="card-link"
                     >
