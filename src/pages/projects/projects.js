@@ -1,4 +1,6 @@
 import React from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import "./projects.css";
 
 function Project() {
@@ -10,7 +12,6 @@ function Project() {
         link: "google.com",
         }
     ]
-}
 
 function Projects() {
     return (
@@ -51,6 +52,8 @@ function Projects() {
     );
 }
 
-export default Projects;
+}
+
+export default Project;
 
 //have big projects shown in big cards in center of screen, maybe 3-4 of these, underneath in smaller cards have smaller projects like bootcamp activities. these cards will be much smaller and there should be arrows on each side to scroll through. display a few then can click on arrow to display next chunk of a few activites, etc.
