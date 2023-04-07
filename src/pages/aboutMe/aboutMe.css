@@ -6,8 +6,11 @@
 .bio {
     text-align: center;
     font-size: 23px;
-    height: 100px;
-    width: 100px;
     background: black;
+    background-color: black;
 }
+
+/*make background black
+fix size
+center */
 
