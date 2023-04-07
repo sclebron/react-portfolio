@@ -8,6 +8,7 @@
     font-size: 23px;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 50vh;
     width: 50vh;
     background: black;
