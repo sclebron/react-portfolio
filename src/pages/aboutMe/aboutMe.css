@@ -6,8 +6,8 @@
 .bio {
     text-align: center;
     font-size: 23px;
-    margin-left: 65px;
-    margin-right: 65px;
-    margin-bottom: 40px;
+    height: 50vh;
+    width: 60vh;
+    background: black;
 }
 
