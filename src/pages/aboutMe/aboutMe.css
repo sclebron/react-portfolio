@@ -11,9 +11,11 @@
     width: 135vh;
     display: flex;
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /*make background black
-fix size
+fix size of text box
 center */
 
