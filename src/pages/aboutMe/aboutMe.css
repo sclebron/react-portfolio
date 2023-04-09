@@ -9,6 +9,8 @@
     background: black;
     background-color: black;
     width: 135vh;
+    display: flex;
+    justify-content: center;
 }
 
 /*make background black
