@@ -39,7 +39,7 @@ function Particle() {
                             "type": "circle",
                             "stroke": {
                             "width": 0,
-                            "color": "#000000"
+                            "color": "#E94560"
                             },
                             "polygon": {
                             "nb_sides": 5
@@ -68,7 +68,7 @@ function Particle() {
                         "line_linked": {
                             "enable": true,
                             "distance": 150,
-                            "color": "#ffffff",
+                            "color": "#E94560",
                             "opacity": 0.4,
                             "width": 1
                         },
