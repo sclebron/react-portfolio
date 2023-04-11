@@ -1,9 +1,11 @@
 import React from 'react';
 import "./aboutMe.css";
+import './components/particles/Particles.jsx';
 
 function AboutMe() {
     return (
         <div className="container">
+            <Particles />
             <div className="title">About Me</div>
                 <div className="bio">
                     Hi! My name is Sophie and I'm a full stack developer based in Denver, CO. <br />

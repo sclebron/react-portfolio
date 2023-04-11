@@ -2,6 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./projects.css";
+import './components/particles/Particles.jsx';
 
 function Project() {
     const projects = [
@@ -16,6 +17,7 @@ function Project() {
 function Projects() {
     return (
         <div className="container">
+            <Particles />
             <div className="title">Projects</div>
                 <div className="bio">
                 <Row className="justify-content-center">
