@@ -1,6 +1,6 @@
 import React from 'react';
 import './homepage.css';
-import './homepageParticles.jsx';
+import Particles from './homepageParticles.jsx';
 
 function Homepage() {
     return (
