@@ -39,7 +39,7 @@ function Particle() {
                             "type": "circle",
                             "stroke": {
                             "width": 0,
-                            "color": "#000000"
+                            "color": "#ffffff"
                             },
                             "polygon": {
                             "nb_sides": 5
