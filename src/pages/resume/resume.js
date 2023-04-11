@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 import resumeimg from './resume.png';
 import resume from './Sophie_LeBron_Resume.pdf';
-import '.../components/particles/particles.jsx';
+import '../components/particles/particles.jsx';
 
 function Resume () {
     return (
