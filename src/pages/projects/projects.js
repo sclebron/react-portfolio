@@ -2,7 +2,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./projects.css";
-import './particles.jsx';
+import Particles from './particles.jsx';
 
 function Project() {
     const projects = [

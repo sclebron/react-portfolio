@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
 import emailForm from './emailForm.js'
-import './particles.jsx';
+import Particles from './particles.jsx';
 
 function Contact() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./aboutMe.css";
-import './particles.jsx';
+import Particles from './particles.jsx';
 
 function AboutMe() {
     return (
