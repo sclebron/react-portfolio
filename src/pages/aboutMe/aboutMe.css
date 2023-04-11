@@ -8,12 +8,13 @@
     font-size: 23px;
     background: black;
     background-color: black;
+    margin-top: 150px;
     margin-left: 160px;
     margin-right: 160px;
 }
 
 .break {
-    margin-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 /*make background black
