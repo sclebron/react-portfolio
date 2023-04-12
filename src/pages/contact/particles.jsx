@@ -24,6 +24,10 @@ function Particle() {
                 Loaded={particlesLoaded}
 
                 options={{
+                    "style": {
+                        "position": "fixed",
+                        "zIndex": -1
+                    },
                     "particles": {
                         "number": {
                             "value": 80,
