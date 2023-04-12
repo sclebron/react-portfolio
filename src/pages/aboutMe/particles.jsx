@@ -24,9 +24,6 @@ function Particle() {
                 Loaded={particlesLoaded}
 
                 options={{
-                    "style": {
-                        "position": "relative"
-                    },
                     "particles": {
                         "number": {
                             "value": 80,
