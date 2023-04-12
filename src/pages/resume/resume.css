@@ -13,5 +13,7 @@
     height: 70vh;
     width: 55vh;
     margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
 }
 
