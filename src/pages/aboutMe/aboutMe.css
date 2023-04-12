@@ -11,6 +11,7 @@
     margin-top: 40px;
     margin-left: 160px;
     margin-right: 160px;
+    z-index: 1;
 }
 
 /*make background black*/
