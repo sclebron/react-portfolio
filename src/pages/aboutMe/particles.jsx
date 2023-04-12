@@ -25,7 +25,8 @@ function Particle() {
 
                 options={{
                     "style": {
-                        "position": "fixed"
+                        "position": "fixed",
+                        "zIndex": -1
                     },
                     "particles": {
                         "number": {
