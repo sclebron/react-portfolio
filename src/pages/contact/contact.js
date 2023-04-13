@@ -1,6 +1,5 @@
 import React from 'react';
 import './contact.css';
-import emailForm from './emailForm.js'
 import './emailForm.js';
 import Particles from './particles.jsx';
 
