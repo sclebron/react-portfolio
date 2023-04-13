@@ -1,6 +1,7 @@
 import React from 'react';
 import './contact.css';
 import emailForm from './emailForm.js'
+import './emailForm.js';
 import Particles from './particles.jsx';
 
 function Contact() {
@@ -8,8 +9,8 @@ function Contact() {
         <div className="contact">
             <Particles />
             <div class="title">Contact</div>
-                <div>
-                    <emailForm/>
+                <div className="formContainer">
+                    <emailForm />
                 </div>
         </div>
     )
