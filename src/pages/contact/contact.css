@@ -16,6 +16,8 @@
     border-radius: 5px;
     border: 1px solid white;
     background: transparent;
+    margin-top: 1rem;
+    color: white;
     }
 
 .textarea {
@@ -29,6 +31,8 @@
     border-radius: 5px;
     border: 1px solid white;
     background: transparent;
+    margin-top: 1rem;
+    color: white;
 }
 
 .input[type="submit"] {
@@ -45,9 +49,6 @@
 }
 
 /*
-white border around name email and message input
-transparent background for input boxes
-placeholder text for input boxes gray or white
 text when person types in input boxes is white
 sizing
 submit button onhover change color to pink
