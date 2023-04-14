@@ -29,9 +29,9 @@
     border: 1px solid rgb(220, 220, 220);
 }
 
-.label {
+/* .label {
     margin-top: 1rem;
-}
+} */
 
 .input[type="submit"] {
     margin-top: 2rem;
@@ -42,8 +42,16 @@
     border-color: white;
 }
 
+.placeholder {
+    color: white;
+}
+
 /*
 name email and message inside input
+white border around name email and message input
+transparent background for input boxes
+placeholder text for input boxes gray or white
+text when person types in input boxes is white
 sizing
 submit button onhover change color to pink
 border around submit button
