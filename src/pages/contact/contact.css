@@ -1,8 +1,9 @@
 .contactForm {
     position: relative;
     z-index: 1;
-
-    width: 400px;
+    margin-left: 160px;
+    margin-right: 160px;
+    /* width: 400px; */
     display: flex;
     align-items: flex-start;
     flex-direction: column;
