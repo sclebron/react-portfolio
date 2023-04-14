@@ -18,6 +18,7 @@
     background: transparent;
     margin-top: 1rem;
     color: white;
+    z-index: 1;
     }
 
 .textarea {
@@ -33,6 +34,7 @@
     background: transparent;
     margin-top: 1rem;
     color: white;
+    z-index: 1;
 }
 
 .input[type="submit"] {
@@ -43,6 +45,7 @@
     border: solid;
     border-radius: 5px;
     border-color: white;
+    z-index: 1;
 }
 
 .placeholder {
