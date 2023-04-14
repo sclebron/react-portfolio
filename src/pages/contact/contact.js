@@ -44,9 +44,9 @@ return <div className="contactContainer">
             <form ref={form} onSubmit={sendEmail}>
                 <label className="label">Name</label>
                 <input type="text" name="user_name" className="input" />
-                <label className="label">Email</label>
+                <label className="label">Enter Email</label>
                 <input type="email" name="user_email" className="input" />
-                <label className="label">Message</label>
+                <label className="label">Your Message</label>
                 <textarea name="message" className="textarea" />
                 <input type="submit" value="Submit" className="input" />
             </form>
