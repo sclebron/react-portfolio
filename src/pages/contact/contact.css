@@ -51,6 +51,11 @@
     z-index: 1;
 }
 
+.input[type="submit"]:hover {
+    color: #E94560;
+    border-color: #E94560;
+}
+
 /*
 sizing
 submit button onhover change color to pink
@@ -58,5 +63,6 @@ message above form
 onSubmit message to let user know it was successful
 border around form
 center in page
+make particles not on contact form
 */
 
