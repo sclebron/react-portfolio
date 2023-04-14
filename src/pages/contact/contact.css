@@ -36,9 +36,10 @@
 .input[type="submit"] {
     margin-top: 2rem;
     cursor: pointer;
-    background: rgb(249, 105, 14);
+    background: transparent;
     color: white;
-    border: none;
+    border: solid;
+    border-color: white;
 }
 
 /*
