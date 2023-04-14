@@ -14,6 +14,7 @@
     padding: 7px;
     outline: none;
     border: 1px solid white;
+    border-radius: 5px;
     background: transparent;
     margin-top: 1rem;
     color: white;
@@ -28,6 +29,7 @@
     padding: 7px;
     outline: none;
     border: 1px solid white;
+    border-radius: 5px;
     background: transparent;
     margin-top: 1rem;
     color: white;
@@ -39,6 +41,7 @@
     background: transparent;
     color: white;
     border: solid;
+    border-radius: 5px;
     border-color: white;
 }
 
@@ -47,15 +50,11 @@
 }
 
 /*
-text when person types in input boxes is white
 sizing
 submit button onhover change color to pink
-border around submit button
-background of submit button transparent
 message above form
 onSubmit message to let user know it was successful
 border around form
 center in page
-margin between input boxes
 */
 
