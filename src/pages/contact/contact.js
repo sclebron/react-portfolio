@@ -47,7 +47,7 @@ return <div className="contactContainer">
             <input type="email" name="user_email" className="input" />
             <label className="label">Message</label>
             <textarea name="message" className="textarea" />
-            <input type="submit" value="Send" className="input" />
+            <input type="submit" value="Submit" className="input" />
         </form>
     </div>
 }
