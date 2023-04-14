@@ -42,12 +42,12 @@ return <div className="contactContainer">
         <div class="title">Contact</div>
         <form ref={form} onSubmit={sendEmail} className="contactForm">
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input type="text" name="user_name" className="input" />
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input type="email" name="user_email" className="input" />
             <label>Message</label>
             <textarea name="message" />
-            <input type="submit" value="Send" />
+            <input type="submit" value="Send" className="input" />
         </form>
     </div>
 }
