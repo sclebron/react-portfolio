@@ -40,7 +40,7 @@ const Contact = () => {
 return <div className="contactContainer">
         <Particles />
         <div class="title">Contact</div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className="contactForm">
             <label>Name</label>
             <input type="text" name="user_name" />
             <label>Email</label>
