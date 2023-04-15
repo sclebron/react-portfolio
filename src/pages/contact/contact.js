@@ -1,21 +1,3 @@
-// import React from 'react';
-// import './contact.css';
-// import Particles from './particles.jsx';
-
-// function Contact() {
-//     return (
-//         <div className="contact">
-//             <Particles />
-//             <div class="title">Contact</div>
-//                 <div className="formContainer">
-                    
-//                 </div>
-//         </div>
-//     )
-// }
-
-// export default Contact;
-
 import React, { useRef } from 'react';
 import './contact.css';
 import Particles from './particles.jsx';
@@ -35,6 +17,14 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+
+        // const onSubmit = async (event) => {
+        //     event.preventDefault();
+        //     try {
+        //         alert('Your registration was successfully submitted!');
+        //     } catch (e) {
+        //         alert(`Registration failed! ${e.message}`);
+        //     }
     };
 
 return <div className="contactContainer">

@@ -2,8 +2,6 @@
     position: relative;
     z-index: 1;
     width: 500px;
-    display: flex;
-    justify-content: center;
     margin-top: 40px;
     margin-left: 140px;
     margin-right: 140px;
@@ -66,8 +64,9 @@
 }
 
 /*
-onSubmit message to let user know it was successful
+onSubmit message to let user know it was successful only when inputs are filled in
 center in page
 make particles not on contact form
+check and make sure functionality works
 */
 
