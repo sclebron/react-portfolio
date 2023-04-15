@@ -3,8 +3,14 @@
     z-index: 1;
     width: 500px;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.contactTitle {
+    text-align: center;
+    font-weight: 200;
 }
 
 .input {

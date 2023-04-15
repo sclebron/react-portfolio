@@ -42,7 +42,7 @@ return <div className="contactContainer">
         <div class="title">Contact</div>
         <div className="contactForm">
             <form ref={form} onSubmit={sendEmail}>
-                <h2>Reach out!</h2>
+                <h2 className="contactTitle">Reach out!</h2>
                 <input type="text" name="user_name" className="input" placeholder="Name"/>
                 <input type="email" name="user_email" className="input" placeholder="Enter email"/>
                 <textarea name="message" className="textarea" placeholder="Your Message"/>
