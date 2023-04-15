@@ -6,12 +6,13 @@
     justify-content: center;
     margin-left: 140px;
     margin-right: 140px;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 .contactTitle {
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .input {
