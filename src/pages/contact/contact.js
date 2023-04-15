@@ -21,9 +21,9 @@ const Contact = () => {
         // const onSubmit = async (event) => {
         //     event.preventDefault();
         //     try {
-        //         alert('Your registration was successfully submitted!');
+        //         alert('Your message was sent!');
         //     } catch (e) {
-        //         alert(`Registration failed! ${e.message}`);
+        //         alert(`Message send failed! ${e.message}`);
         //     }
     };
 
