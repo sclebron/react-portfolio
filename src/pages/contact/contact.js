@@ -42,11 +42,9 @@ return <div className="contactContainer">
         <div class="title">Contact</div>
         <div className="contactForm">
             <form ref={form} onSubmit={sendEmail}>
-                {/* <label className="label">Name</label> */}
+                <h2>Reach out!</h2>
                 <input type="text" name="user_name" className="input" placeholder="Name"/>
-                {/* <label className="label">Enter Email</label> */}
                 <input type="email" name="user_email" className="input" placeholder="Enter email"/>
-                {/* <label className="label">Your Message</label> */}
                 <textarea name="message" className="textarea" placeholder="Your Message"/>
                 <input type="submit" value="Submit" className="input" />
             </form>
