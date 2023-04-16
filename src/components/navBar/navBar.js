@@ -15,11 +15,6 @@ function NavBar() {
             About Me
           </button>
         </Link>
-        <Link to="/Contact">
-          <button className="navBtn" id="contact">
-            Contact
-          </button>
-        </Link>
         <Link to="/Projects">
           <button className="navBtn" id="projects">
             Projects
@@ -28,6 +23,11 @@ function NavBar() {
         <Link to="/Resume">
           <button className="navBtn" id="resume">
             Resume
+          </button>
+        </Link>
+        <Link to="/Contact">
+          <button className="navBtn" id="contact">
+            Contact
           </button>
         </Link>
       </div>
