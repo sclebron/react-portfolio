@@ -16,7 +16,7 @@ function Project() {
 
 function Projects() {
     return (
-        <div className="container">
+        <div className="projectsContainer">
             <Particles />
             <div className="title">Projects</div>
                 <div className="bio">

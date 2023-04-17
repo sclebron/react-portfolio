@@ -6,7 +6,7 @@ import Particles from './particles.jsx';
 
 function Resume () {
     return (
-        <div className="resume-container">
+        <div className="resumeContainer">
             <Particles />
             <div className="title">Resume</div>
             <img src={resumeimg} className="resumeimg" />

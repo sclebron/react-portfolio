@@ -4,7 +4,7 @@ import Particles from './particles.jsx';
 
 function AboutMe() {
     return (
-        <div className="container">
+        <div className="aboutMeContainer">
             <Particles />
             <div className="title">About Me</div>
                 <div className="bio">
