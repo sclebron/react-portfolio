@@ -1,6 +1,7 @@
 .contactForm {
     position: relative;
     z-index: 1;
+    background: black;
     width: 500px;
     margin-top: 30px;
     margin-left: auto;
