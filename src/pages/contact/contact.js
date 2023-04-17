@@ -19,22 +19,13 @@ const Contact = () => {
         });
 
         try {
-            if (input !== null && textarea !== null) {
+            if (user_name !== null && user_email !== null && message !== null) {
             alert('Your message was sent!');
             }
         } catch (e) {
             alert(`Message send failed! ${e.message}`);
         }
     }
-
-    //     const submitMessage = async (event) => {
-    //         event.preventDefault();
-    //         try {
-    //             alert('Your message was sent!');
-    //         } catch (e) {
-    //             alert(`Message send failed! ${e.message}`);
-    //         }
-    // };
 
 return <div className="contactContainer">
         <Particles />
