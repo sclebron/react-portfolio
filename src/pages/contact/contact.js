@@ -19,7 +19,9 @@ const Contact = () => {
         });
 
         try {
+            if (input !== null && textarea !== null) {
             alert('Your message was sent!');
+            }
         } catch (e) {
             alert(`Message send failed! ${e.message}`);
         }
