@@ -19,9 +19,7 @@ const Contact = () => {
         });
 
         try {
-            if (user_name !== null && user_email !== null && message !== null) {
             alert('Your message was sent!');
-            }
         } catch (e) {
             alert(`Message send failed! ${e.message}`);
         }
