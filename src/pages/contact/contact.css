@@ -10,6 +10,11 @@
     padding: 30px;
 }
 
+form {
+    position: relative;
+    z-index: 1;
+}
+
 .contactTitle {
     text-align: center;
     font-weight: 300;
