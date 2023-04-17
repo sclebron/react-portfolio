@@ -18,14 +18,21 @@ const Contact = () => {
             console.log(error.text);
         });
 
-        // const onSubmit = async (event) => {
-        //     event.preventDefault();
-        //     try {
-        //         alert('Your message was sent!');
-        //     } catch (e) {
-        //         alert(`Message send failed! ${e.message}`);
-        //     }
-    };
+        try {
+            alert('Your message was sent!');
+        } catch (e) {
+            alert(`Message send failed! ${e.message}`);
+        }
+    }
+
+    //     const submitMessage = async (event) => {
+    //         event.preventDefault();
+    //         try {
+    //             alert('Your message was sent!');
+    //         } catch (e) {
+    //             alert(`Message send failed! ${e.message}`);
+    //         }
+    // };
 
 return <div className="contactContainer">
         <Particles />
