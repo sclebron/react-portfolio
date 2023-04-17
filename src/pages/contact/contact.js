@@ -32,7 +32,7 @@ return <div className="contactContainer">
             <form ref={form} onSubmit={sendEmail}>
                 <h2 className="contactTitle">Reach out!</h2>
                 <input type="text" name="user_name" className="input" placeholder="Name"/>
-                <input type="email" name="user_email" className="input" placeholder="Enter email"/>
+                <input type="email" name="user_email" className="input" placeholder="Email"/>
                 <textarea name="message" className="textarea" placeholder="Your Message"/>
                 <input type="submit" value="Submit" className="input" />
             </form>
