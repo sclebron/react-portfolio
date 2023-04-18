@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.64b4606a.css",
-    "main.js": "/react-portfolio/static/js/main.7ffa4d25.js",
+    "main.css": "/react-portfolio/static/css/main.6e0a007f.css",
+    "main.js": "/react-portfolio/static/js/main.e260ce85.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/resume.png": "/react-portfolio/static/media/resume.2734d6ee92d0b504e090.png",
     "static/media/Sophie_LeBron_Resume.pdf": "/react-portfolio/static/media/Sophie_LeBron_Resume.8c80adaa5ba5d9aefb8b.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.64b4606a.css.map": "/react-portfolio/static/css/main.64b4606a.css.map",
-    "main.7ffa4d25.js.map": "/react-portfolio/static/js/main.7ffa4d25.js.map",
+    "main.6e0a007f.css.map": "/react-portfolio/static/css/main.6e0a007f.css.map",
+    "main.e260ce85.js.map": "/react-portfolio/static/js/main.e260ce85.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64b4606a.css",
-    "static/js/main.7ffa4d25.js"
+    "static/css/main.6e0a007f.css",
+    "static/js/main.e260ce85.js"
   ]
 }
