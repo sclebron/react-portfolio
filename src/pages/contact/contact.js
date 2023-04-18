@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import './contact.css';
 import Particles from './particles.jsx';
 import emailjs from '@emailjs/browser';
-import { AlertContainer, alert } from 'react-custom-alert';
 
 const Contact = () => {
 
@@ -20,7 +19,7 @@ const Contact = () => {
         });
 
         try {
-            alert({ message: 'Your message was sent!' });
+            alert('Your message was sent!');
         } catch (e) {
             alert(`Message send failed! ${e.message}`);
         }
