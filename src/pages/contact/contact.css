@@ -61,6 +61,7 @@
 alert {
     background: black;
     color: white;
+    border: 1px solid #E94560;
 }
 
 /*
