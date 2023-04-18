@@ -19,7 +19,8 @@ const Contact = () => {
         });
 
         try {
-            alert('Your message was sent!');
+            // alert('Your message was sent!');
+            return <div className="submitMessage">"Your message was sent"!</div>
         } catch (e) {
             alert(`Message send failed! ${e.message}`);
         }
