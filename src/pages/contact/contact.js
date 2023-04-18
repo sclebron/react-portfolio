@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './contact.css';
 import Particles from './particles.jsx';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
 
@@ -19,7 +20,9 @@ const Contact = () => {
         });
 
         try {
-            alert('Your message was sent!');
+            return (
+            <div className="submitMessage">alert('Your message was sent!');</div>
+            )
         } catch (e) {
             alert(`Message send failed! ${e.message}`);
         }
@@ -41,3 +44,9 @@ return <div className="contactContainer">
 }
 
 export default Contact;
+
+/*
+email validation
+check that name, email, and message are filled in before sending email
+check that functionality works
+*/

@@ -64,10 +64,13 @@ alert {
     border: 1px solid #E94560;
 }
 
+.submitMessage {
+    background: black;
+    color: white;
+    border: 1px solid #E94560;
+}
+
 /*
 style onSubmit alert
-email validation
-check that name, email, and message are filled in before sending email
-check that functionality works
 */
 
