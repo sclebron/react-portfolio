@@ -54,7 +54,7 @@
 }
 
 .input[type="submit"]:hover {
-    background-color: #E94560;
+    color: #E94560;
     border-color: #E94560;
 }
 
