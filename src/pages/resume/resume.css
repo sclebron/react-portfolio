@@ -6,12 +6,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .resumeimg {
-    height: 70vh;
-    width: 55vh;
+    /* height: 70vh;
+    width: 55vh; */
     margin-left: auto;
     margin-right: auto;
     position: relative;
