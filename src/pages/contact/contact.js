@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import './contact.css';
 import Particles from './particles.jsx';
 import emailjs from '@emailjs/browser';
-import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
 
