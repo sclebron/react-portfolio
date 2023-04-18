@@ -58,9 +58,9 @@
     border-color: #E94560;
 }
 
-.submitMessage {
-    position: relative;
-    z-index: 2;
+alert {
+    background: black;
+    color: white;
 }
 
 /*
