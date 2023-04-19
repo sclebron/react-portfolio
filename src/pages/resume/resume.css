@@ -20,3 +20,9 @@
     background: black;
 }
 
+@media screen and (min-height: 670px) {
+    .resumeContainer {
+        height: 75%;
+    }
+}
+
