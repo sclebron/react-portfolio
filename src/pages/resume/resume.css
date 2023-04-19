@@ -15,10 +15,7 @@
     z-index: 1;
 }
 
-/* .resumeDownload:hover {
-    outline: #E94560;
-    color: #E94560;
+.resumeDownload:hover {
     position: relative;
     z-index: 1;
-    background: black;
-} */
+}
