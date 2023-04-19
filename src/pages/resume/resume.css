@@ -17,5 +17,8 @@
 
 .resumeDownload:hover {
     outline: #E94560;
+    color: #E94560;
+    position: relative;
+    z-index: 1;
     background: black;
 }
