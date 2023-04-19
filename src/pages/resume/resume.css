@@ -1,12 +1,10 @@
-.resume-container {
+/* .resume-container {
     min-height: 80vh;
-}
+} */
 
-.resume-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* .resume-container {
+
+} */
 
 .resumeimg {
     height: 70vh;
