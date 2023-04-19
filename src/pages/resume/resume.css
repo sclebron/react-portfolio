@@ -10,11 +10,12 @@
     width: 60vh;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     position: relative;
     z-index: 1;
 }
 
-.btn:hover {
+.btn btn-outline-light:hover {
     outline: #E94560;
     background: black;
 }
