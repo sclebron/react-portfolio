@@ -15,12 +15,12 @@
     z-index: 1;
 }
 
-.btn btn-outline-light {
+.resumeDownload {
     position: relative;
     z-index: 1;
 }
 
-.btn btn-outline-light:hover {
+.resumeDownload:hover {
     outline: #E94560;
     background: black;
 }
