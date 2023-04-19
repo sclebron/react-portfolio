@@ -15,13 +15,7 @@
     z-index: 1;
 }
 
-.resumeDownload {
-    position: relative;
-    z-index: 1;
-}
-
 .resumeDownload:hover {
     outline: #E94560;
     background: black;
 }
-
