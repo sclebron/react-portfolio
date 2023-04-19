@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const contactAlert = () => {
-    const [alerts, setAlerts] = useState([]);
+    
 }
 
 export default contactAlert;
