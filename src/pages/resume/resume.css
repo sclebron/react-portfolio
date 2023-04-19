@@ -17,3 +17,7 @@
     z-index: 1;
 }
 
+.btn:hover {
+    color: #E94560;
+}
+
