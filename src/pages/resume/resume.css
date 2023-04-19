@@ -15,14 +15,13 @@
     z-index: 1;
 }
 
+.btn btn-outline-light {
+    position: relative;
+    z-index: 1;
+}
+
 .btn btn-outline-light:hover {
     outline: #E94560;
     background: black;
-}
-
-@media screen and (min-height: 670px) {
-    .resumeContainer {
-        height: 75%;
-    }
 }
 
