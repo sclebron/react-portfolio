@@ -17,7 +17,15 @@
     z-index: 1;
 }
 
+.btn {
+    outline: white;
+    /* color: white; */
+    background: black;
+    position: relative;
+    z-index: 1;
+}
+
 .btn:hover {
-    color: #E94560;
+    outline: #E94560;
 }
 
