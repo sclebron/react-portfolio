@@ -8,7 +8,7 @@ function Project() {
     const projects = [
         {
         title: "Real-Time Commodities",
-        description: "ahfdisl",
+        description: "ahfdisl includes technologies used",
         // img: Real-TimeCommodities,
         link: "google.com",
         }
