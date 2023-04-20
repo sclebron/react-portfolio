@@ -14,7 +14,6 @@ function Project() {
         }
     ]
 
-function Projects() {
     return (
         <div className="projectsContainer">
             <Particles />
@@ -52,8 +51,6 @@ function Projects() {
                 </div>
         </div>
     );
-}
-
 }
 
 export default Project;
