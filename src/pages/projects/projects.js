@@ -42,7 +42,7 @@ function Project() {
         <Col xs={12} md={6}>
             {projects.map((projects) => (
             <div className="projectCards">
-                <Card style={{ width: '18rem' }}>
+                <Card style={{ width: '20rem' }} className="projectCard">
                     <Card.Body>
                     <Card.Title className="cardTitle">{projects.title}</Card.Title>
                     {/* <Card.Img className="cardImg" src={projects.img} /> */}
