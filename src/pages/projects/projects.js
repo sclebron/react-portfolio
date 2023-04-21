@@ -11,8 +11,8 @@ function Project() {
         {
         title: "Zork for Dogs",
         // img: Real-TimeCommodities,
-        description: "ahfdisl includes technologies used",
-        link: "google.com",
+        description: "Zork for Dogs is a text adventure game inspired by my dog, Peanut!",
+        link: "https://sclebron.github.io/zork-for-dogs/",
         },
         {
         title: "Real-Time Commodities",
