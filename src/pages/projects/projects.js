@@ -42,12 +42,12 @@ function Project() {
         <Col xs={12} md={6}>
             {projects.map((projects) => (
             <div className="projectCards">
-                <Card style={{ width: '20rem' }} className="projectCard">
-                    <Card.Body>
-                    <Card.Title className="cardTitle">{projects.title}</Card.Title>
-                    {/* <Card.Img className="cardImg" src={projects.img} /> */}
-                    <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                    <Button variant="primary" href={projects.link}>Go to app</Button>
+                <Card style={{ width: '20rem' }}>
+                    <Card.Body className="projectCard">
+                        <Card.Title className="cardTitle">{projects.title}</Card.Title>
+                        {/* <Card.Img className="cardImg" src={projects.img} /> */}
+                        <Card.Text className="cardDescription">{projects.description}</Card.Text>
+                        <Button variant="primary" href={projects.link}>Go to app</Button>
                     </Card.Body>
                 </Card>
             </div>
