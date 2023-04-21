@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "./projects.css";
 import Particles from './particles.jsx';
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 function Project() {
     const projects = [
@@ -30,30 +32,22 @@ function Project() {
         <div className="projectsContainer">
             <Particles />
             <div className="title">Projects</div>
-                <div className="bio">
-                <Row className="justify-content-center">
+        <Row className="justify-content-center">
         <Col xs={12} md={6}>
             {projects.map((projects) => (
             <div className="projectCards">
-                <div className="card">
-                {/* <img
-                    className="card-img-top"
-                    src={projects.img}
-                    alt="Project screenshot"
-                /> */}
-                <div className="card-body">
-                    <h5 className="card-title">{projects.title}</h5>
-                    <p className="card-text">{projects.description}</p>
-                    <a href={projects.link} target="_blank" className="card-link">
-                    Deploy
-                    </a>
-                </div>
-                </div>
+                <Card style={{ width: '18rem' }}>
+                    {/* <Card.Img className="cardImg" src={projects.img} /> */}
+                    <Card.Body>
+                    <Card.Title>{projects.title}</Card.Title>
+                    <Card.Text>{projects.description}</Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
             </div>
             ))}
         </Col>
         </Row>
-                </div>
         </div>
     );
 }
