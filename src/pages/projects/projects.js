@@ -8,8 +8,20 @@ function Project() {
     const projects = [
         {
         title: "Real-Time Commodities",
-        description: "ahfdisl includes technologies used",
         // img: Real-TimeCommodities,
+        description: "ahfdisl includes technologies used",
+        link: "google.com",
+        },
+        {
+        title: "Fair Fare",
+        // img: Fair-fare,
+        description: "ahfdisl includes technologies used",
+        link: "google.com",
+        },
+        {
+        title: "The Registry",
+        // img: Registry,
+        description: "ahfdisl includes technologies used",
         link: "google.com",
         }
     ]
@@ -32,14 +44,7 @@ function Project() {
                 <div className="card-body">
                     <h5 className="card-title">{projects.title}</h5>
                     <p className="card-text">{projects.description}</p>
-                    <a href={projects.repo} target="_blank" className="card-link">
-                    Github
-                    </a>
-                    <a
-                    href={projects.link}
-                    target="_blank"
-                    className="card-link"
-                    >
+                    <a href={projects.link} target="_blank" className="card-link">
                     Deploy
                     </a>
                 </div>
