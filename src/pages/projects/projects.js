@@ -9,6 +9,12 @@ import Card from 'react-bootstrap/Card';
 function Project() {
     const projects = [
         {
+        title: "Zork for Dogs",
+        // img: Real-TimeCommodities,
+        description: "ahfdisl includes technologies used",
+        link: "google.com",
+        },
+        {
         title: "Real-Time Commodities",
         // img: Real-TimeCommodities,
         description: "ahfdisl includes technologies used",
@@ -37,10 +43,10 @@ function Project() {
             {projects.map((projects) => (
             <div className="projectCards">
                 <Card style={{ width: '18rem' }}>
-                    {/* <Card.Img className="cardImg" src={projects.img} /> */}
                     <Card.Body>
-                    <Card.Title>{projects.title}</Card.Title>
-                    <Card.Text>{projects.description}</Card.Text>
+                    <Card.Title className="cardTitle">{projects.title}</Card.Title>
+                    {/* <Card.Img className="cardImg" src={projects.img} /> */}
+                    <Card.Text className="cardDescription">{projects.description}</Card.Text>
                     <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>

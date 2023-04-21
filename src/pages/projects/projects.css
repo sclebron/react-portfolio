@@ -1,1 +1,10 @@
+.cardTitle {
+    text-align: center;
+    color: black;
+}
 
+.cardDescription {
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
