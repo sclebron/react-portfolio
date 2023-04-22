@@ -6,13 +6,13 @@ import Particles from './particles.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 //import images
-//import Real-TimeCommodities from './images/realtimecommodities.png'
+import zorkForDogs from './images/zorkForDogs.png'
 
 function Project() {
     const projects = [
         {
         title: "Zork for Dogs",
-        // img: Real-TimeCommodities,
+        img: zorkForDogs,
         description: "Zork for Dogs is a text adventure game inspired by my dog, Peanut!",
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
