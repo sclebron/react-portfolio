@@ -18,19 +18,19 @@ function Project() {
         },
         {
         title: "Real-Time Commodities",
-        // img: Real-TimeCommodities,
+        img: zorkForDogs,
         description: "ahfdisl includes technologies used",
         link: "google.com",
         },
         {
         title: "Fair Fare",
-        // img: Fair-fare,
+        img: zorkForDogs,
         description: "ahfdisl includes technologies used",
         link: "google.com",
         },
         {
         title: "The Registry",
-        // img: Registry,
+        img: zorkForDogs,
         description: "ahfdisl includes technologies used",
         link: "google.com",
         }
