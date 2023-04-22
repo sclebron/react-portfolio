@@ -1,17 +1,21 @@
+.projectCards {
+    overflow: scroll;
+}
+
 .projectCard {
     position: relative;
     z-index: 1;
-    background: black;
-    border: 3px solid white;
+    background: white;
+    border: 3px solid black;
 }
 
 .cardTitle {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .cardDescription {
     text-align: center;
-    color: white;
-    border: 2px solid white;
+    color: black;
+    border: 2px solid black;
 }
