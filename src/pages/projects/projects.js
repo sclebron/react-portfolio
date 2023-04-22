@@ -5,6 +5,8 @@ import "./projects.css";
 import Particles from './particles.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+//import images
+//import Real-TimeCommodities from './images/realtimecommodities.png'
 
 function Project() {
     const projects = [
