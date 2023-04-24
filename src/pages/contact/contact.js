@@ -37,6 +37,10 @@ return <div className="contactContainer">
                 <input type="submit" value="Submit" className="input" />
             </form>
         </div>
+        <div className="contactInfo">
+            <div className="infoTitle">Contact Info</div>
+            <div className="info"></div>
+        </div>
     </div>
 }
 
