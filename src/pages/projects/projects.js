@@ -41,8 +41,8 @@ function Project() {
         <div className="projectsContainer">
             <Particles />
             <div className="title">Projects</div>
-        <Row className="justify-content-center">
-        <Col xs={12} md={6}>
+        {/* <Row className="justify-content-center">
+        <Col xs={12} md={6}> */}
             {projects.map((projects) => (
             <div className="projectCards">
                 <Card style={{ width: '20rem' }}>
@@ -55,8 +55,8 @@ function Project() {
                 </Card>
             </div>
             ))}
-        </Col>
-        </Row>
+        {/* </Col>
+        </Row> */}
         </div>
     );
 }
