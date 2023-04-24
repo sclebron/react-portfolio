@@ -24,8 +24,8 @@
 }
 
 .linkBtn {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     border: 2px solid black;
     padding: 9px;
     text-decoration: none;
@@ -34,6 +34,6 @@
 .linkBtn:hover {
     /* color: #E94560;
     border: 2px solid #E94560; */
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 }
