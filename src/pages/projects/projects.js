@@ -1,11 +1,8 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import "./projects.css";
 import Particles from './particles.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-//import images
 import zorkForDogs from './images/zorkForDogs.png'
 
 function Project() {
@@ -41,8 +38,6 @@ function Project() {
         <div className="projectsContainer">
             <Particles />
             <div className="title">Projects</div>
-        {/* <Row className="justify-content-center">
-        <Col xs={12} md={6}> */}
             {projects.map((projects) => (
             <div className="projectCards">
                 <Card style={{ width: '20rem' }}>
@@ -50,13 +45,11 @@ function Project() {
                         <Card.Title className="cardTitle">{projects.title}</Card.Title>
                         <Card.Img className="cardImg" src={projects.img} />
                         <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                        <Button className="linkBtn" variant="primary" href={projects.link}>Go to app</Button>
+                        <Button className="linkBtn" href={projects.link} target="_blank">Go to app</Button>
                     </Card.Body>
                 </Card>
             </div>
             ))}
-        {/* </Col>
-        </Row> */}
         </div>
     );
 }
