@@ -39,7 +39,11 @@ return <div className="contactContainer">
         </div>
         <div className="contactInfo">
             <div className="infoTitle">Contact Info</div>
-            <div className="info"></div>
+            <div className="info">
+                <div className="email">Email: sophieclebron@gmail.com</div>
+                <div className="phone">Phone: (505)-901-7187</div>
+                <div className="city">Denver, CO</div>
+            </div>
         </div>
     </div>
 }
