@@ -50,7 +50,7 @@ function Project() {
                         <Card.Title className="cardTitle">{projects.title}</Card.Title>
                         <Card.Img className="cardImg" src={projects.img} />
                         <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                        <Button variant="primary" href={projects.link}>{projects.link}</Button>
+                        <Button className="linkBtn" variant="primary" href={projects.link}>Go to app</Button>
                     </Card.Body>
                 </Card>
             </div>
