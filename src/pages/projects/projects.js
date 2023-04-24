@@ -45,7 +45,8 @@ function Project() {
                         <Card.Title className="cardTitle">{projects.title}</Card.Title>
                         <Card.Img className="cardImg" src={projects.img} />
                         <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                        <Button className="linkBtn" href={projects.link} target="_blank">Go to app</Button>
+                        {/* <Button className="linkBtn" href={projects.link} target="_blank">Go to app</Button> */}
+                        <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
                     </Card.Body>
                 </Card>
             </div>
