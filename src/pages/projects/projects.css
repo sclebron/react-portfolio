@@ -6,12 +6,15 @@
     position: relative;
     z-index: 1;
     background: white;
-    border: 3px solid black;
 }
 
 .cardTitle {
     text-align: center;
     color: black;
+}
+
+.cardImg {
+    margin-bottom: 10px;
 }
 
 .cardDescription {
