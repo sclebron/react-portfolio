@@ -3,7 +3,9 @@ import "./projects.css";
 import Particles from './particles.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import GridLayout from "react-grid-layout";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import zorkForDogs from './images/zorkForDogs.png'
 
 function Project() {
@@ -12,7 +14,6 @@ function Project() {
         title: "Zork for Dogs",
         img: zorkForDogs,
         description: "A text adventure game inspired by my dog, Peanut! \n Javascript",
-        // technologies: "Javascript",
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
         {
@@ -40,7 +41,10 @@ function Project() {
             <Particles />
             <div className="title">Projects</div>
             {projects.map((projects) => (
-            <div className="projectCards">
+            <Container className="projectCards">
+                <Row xs={1} md={2} className="g-4">
+                {Array.from({ length: 4 }).map((_, idx) => (
+                <Col>
                 <Card style={{ width: '20rem' }}>
                     <Card.Body className="projectCard">
                         <Card.Title className="cardTitle">{projects.title}</Card.Title>
@@ -50,7 +54,10 @@ function Project() {
                         <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
                     </Card.Body>
                 </Card>
-            </div>
+                </Col>
+                ))}
+                </Row>
+            </Container>
             ))}
         </div>
     );
