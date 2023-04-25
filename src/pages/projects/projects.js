@@ -43,14 +43,13 @@ function Project() {
             {projects.map((projects) => (
             <Container className="projectCards">
                 <Row xs={1} md={2} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
+                {Array.from({ length: 2 }).map((_, idx) => (
                 <Col>
                 <Card style={{ width: '20rem' }}>
                     <Card.Body className="projectCard">
                         <Card.Title className="cardTitle">{projects.title}</Card.Title>
                         <Card.Img className="cardImg" src={projects.img} />
                         <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                        {/* <Button className="linkBtn" href={projects.link} target="_blank">Go to app</Button> */}
                         <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
                     </Card.Body>
                 </Card>
