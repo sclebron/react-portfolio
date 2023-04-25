@@ -42,7 +42,7 @@ function Project() {
             <div className="title">Projects</div>
             {projects.map((projects) => (
             <Container className="projectCards">
-                <Row xs={1} md={2} className="g-4">
+                <Row className="justify-content-md-center">
                 {Array.from({ length: 2 }).map((_, idx) => (
                 <Col>
                 <Card style={{ width: '20rem' }}>
