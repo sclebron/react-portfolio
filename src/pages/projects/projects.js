@@ -3,6 +3,7 @@ import "./projects.css";
 import Particles from './particles.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import GridLayout from "react-grid-layout";
 import zorkForDogs from './images/zorkForDogs.png'
 
 function Project() {
@@ -18,7 +19,7 @@ function Project() {
         title: "Real-Time Commodities",
         img: zorkForDogs,
         description: "ahfdisl includes technologies used",
-        link: "google.com",
+        link: "https://sclebron.github.io/RealTimeCommodities/",
         },
         {
         title: "Fair Fare",
@@ -57,4 +58,6 @@ function Project() {
 
 export default Project;
 
-//have big projects shown in big cards in center of screen, maybe 3-4 of these, underneath in smaller cards have smaller projects like bootcamp activities. these cards will be much smaller and there should be arrows on each side to scroll through. display a few then can click on arrow to display next chunk of a few activites, etc.
+//three columns
+//two rows (overall six projects)
+//centered
