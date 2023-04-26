@@ -42,7 +42,7 @@ function Project() {
             <div className="title">Projects</div>
             {projects.map((projects) => (
             <Container className="projectCards">
-                <Row className="row-cols-2 row-cols-md-2 g-4">
+                <Row className="row-cols-1 row-cols-md-2 g-4">
                 <Col>
                 <Card style={{ width: '20rem' }}>
                     <Card.Body className="projectCard">
