@@ -43,16 +43,16 @@ function Project() {
             {projects.map((projects) => (
             <Container className="projectCards">
                 <Row className="row-cols-2 row-cols-md-2 g-4">
-                <Col>
-                <Card style={{ width: '20rem' }}>
-                    <Card.Body className="projectCard">
-                        <Card.Title className="cardTitle">{projects.title}</Card.Title>
-                        <Card.Img className="cardImg" src={projects.img} />
-                        <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                        <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
-                    </Card.Body>
-                </Card>
-                </Col>
+                    <Col>
+                    <Card style={{ width: '20rem' }}>
+                        <Card.Body className="projectCard">
+                            <Card.Title className="cardTitle">{projects.title}</Card.Title>
+                            <Card.Img className="cardImg" src={projects.img} />
+                            <Card.Text className="cardDescription">{projects.description}</Card.Text>
+                            <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
+                        </Card.Body>
+                    </Card>
+                    </Col>
                 </Row>
             </Container>
             ))}
@@ -61,7 +61,3 @@ function Project() {
 }
 
 export default Project;
-
-//three columns
-//two rows (overall six projects)
-//centered
