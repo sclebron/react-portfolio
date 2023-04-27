@@ -3,9 +3,9 @@ import "./projects.css";
 import Particles from './particles.jsx';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import zorkForDogs from './images/zorkForDogs.png'
 
@@ -42,20 +42,20 @@ function Project() {
             <Particles />
             <div className="title">Projects</div>
             {projects.map((projects) => (
-            <Container className="projectCards">
-                <Row className="cardRows" md="4">
-                    <Col>
-                    <Card style={{ width: '20rem' }}>
-                        <Card.Body className="projectCard">
-                            <Card.Title className="cardTitle">{projects.title}</Card.Title>
-                            <Card.Img className="cardImg" src={projects.img} />
-                            <Card.Text className="cardDescription">{projects.description}</Card.Text>
+            <div className="projectCards">
+                <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
+                    <MDBCol>
+                    <MDBCard style={{ width: '20rem' }}>
+                        <MDBCardBody className="projectCard">
+                            <MDBCardTitle className="cardTitle">{projects.title}</MDBCardTitle>
+                            <MDBCardImg className="cardImg" src={projects.img} />
+                            <MDBCardText className="cardDescription">{projects.description}</MDBCardText>
                             <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                </Row>
-            </Container>
+                        </MDBCardBody>
+                    </MDBCard>
+                    </MDBCol>
+                </MDBRow>
+            </div>
             ))}
         </div>
     );
