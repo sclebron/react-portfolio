@@ -48,7 +48,7 @@ function Project() {
                     <MDBCard style={{ width: '20rem' }}>
                         <MDBCardBody className="projectCard">
                             <MDBCardTitle className="cardTitle">{projects.title}</MDBCardTitle>
-                            <MDBCardImg className="cardImg" src={projects.img} />
+                            <MDBCardImage className="cardImg" src={projects.img} />
                             <MDBCardText className="cardDescription">{projects.description}</MDBCardText>
                             <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
                         </MDBCardBody>
