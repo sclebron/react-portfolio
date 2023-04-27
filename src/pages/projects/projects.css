@@ -1,12 +1,9 @@
-.projectCards {
-    display: flex;
-    justify-content: center;
-}
-
 .projectCard {
     position: relative;
     z-index: 1;
     background: white;
+    display: flex;
+    justify-content: center;
 }
 
 .cardTitle {
