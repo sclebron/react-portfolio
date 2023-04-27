@@ -44,12 +44,12 @@ function Project() {
                 <Row className='row-cols-1 row-cols-md-2 g-4'>
                     <Col>
                     <Card style={{ width: '20rem' }}>
-                        <CardBody className="projectCard">
+                        <Card.Body className="projectCard">
                             <Card.Title className="cardTitle">{projects.title}</Card.Title>
-                            <CardImg className="cardImg" src={projects.img} />
+                            <Card.Img className="cardImg" src={projects.img} />
                             <Card.Text className="cardDescription">{projects.description}</Card.Text>
                             <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
-                        </CardBody>
+                        </Card.Body>
                     </Card>
                     </Col>
                 </Row>
