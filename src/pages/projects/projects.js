@@ -41,9 +41,9 @@ function Project() {
             <div className="title">Projects</div>
             {projects.map((projects) => (
             <Container className="projectCards">
-                <Row lg={3}>
-                    <Col className="d-flex">
-                    <Card style={{ width: '20rem' }} className="flex-fill">
+                <Row>
+                    <Col>
+                    <Card style={{ width: '20rem' }} className="col-6">
                         <Card.Body className="projectCard">
                             <Card.Title className="cardTitle">{projects.title}</Card.Title>
                             <Card.Img className="cardImg" src={projects.img} />
