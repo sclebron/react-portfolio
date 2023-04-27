@@ -6,7 +6,6 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { MDBCard, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import zorkForDogs from './images/zorkForDogs.png'
 
 function Project() {
@@ -42,20 +41,20 @@ function Project() {
             <Particles />
             <div className="title">Projects</div>
             {projects.map((projects) => (
-            <div className="projectCards">
-                <MDBRow className='row-cols-1 row-cols-md-2 g-4'>
-                    <MDBCol>
-                    <MDBCard style={{ width: '20rem' }}>
-                        <MDBCardBody className="projectCard">
-                            <MDBCardTitle className="cardTitle">{projects.title}</MDBCardTitle>
-                            {/* <MDBCardImage className="cardImg" src={projects.img} /> */}
-                            <MDBCardText className="cardDescription">{projects.description}</MDBCardText>
+            <Container className="projectCards">
+                <Row className='row-cols-1 row-cols-md-2 g-4'>
+                    <Col>
+                    <Card style={{ width: '20rem' }}>
+                        <CardBody className="projectCard">
+                            <Card.Title className="cardTitle">{projects.title}</Card.Title>
+                            <CardImg className="cardImg" src={projects.img} />
+                            <Card.Text className="cardDescription">{projects.description}</Card.Text>
                             <a className="linkBtn" href={projects.link} target="_blank">Go to app</a>
-                        </MDBCardBody>
-                    </MDBCard>
-                    </MDBCol>
-                </MDBRow>
-            </div>
+                        </CardBody>
+                    </Card>
+                    </Col>
+                </Row>
+            </Container>
             ))}
         </div>
     );
