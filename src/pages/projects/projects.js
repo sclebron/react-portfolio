@@ -1,7 +1,6 @@
 import React from 'react';
 import "./projects.css";
 import Particles from './particles.jsx';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
