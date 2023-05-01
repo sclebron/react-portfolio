@@ -19,10 +19,10 @@ function App() {
         <NavBar />
         <Routes>
             <Route path='/AboutMe' element={<AboutMe/>}/>
-            <Route path='/Contact' element={<Contact/>}/>
             <Route path='/react-portfolio/' element={<Homepage/>}/>
             <Route path='/Projects' element={<Projects/>}/>
             <Route path='/Resume' element={<Resume/>}/>
+            <Route path='/Contact' element={<Contact/>}/>
         </Routes>
         <Footer />
     </Router>
