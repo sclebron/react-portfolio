@@ -5,7 +5,8 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import zorkForDogs from './images/zorkForDogs.png'
+import zorkForDogs from './images/zorkForDogs.png';
+import fairFare from './images/faireFare.png';
 
 function Project() {
     const projects = [
@@ -23,7 +24,7 @@ function Project() {
         },
         {
         title: "Fair Fare",
-        img: zorkForDogs,
+        img: fairFare,
         description: "ahfdisl includes technologies used",
         link: "google.com",
         },
