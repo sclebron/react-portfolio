@@ -9,12 +9,10 @@ import Projects from './pages/projects/projects.js';
 import Resume from './pages/resume/resume.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-// import Particles from './components/particles/particles.jsx';
 
 function App() {
   return (
     <div className="App">
-    {/* <Particles /> */}
     <Router>
         <NavBar />
         <Routes>
