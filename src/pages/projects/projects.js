@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import zorkForDogs from './images/zorkForDogs.png';
-import fairFare from './images/faireFare.png';
+import fairFare from './images/fairFare.png';
 
 function Project() {
     const projects = [
