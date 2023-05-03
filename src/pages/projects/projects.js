@@ -40,10 +40,10 @@ function Project() {
         <div className="projectsContainer">
             <Particles />
             <div className="title">Projects</div>
-            {projects.map((projects) => (
             <Container className="projectCards">
                 <Row>
-                    <Col className=".col-6 .col-md-4">
+                {projects.map((projects) => (
+                    <Col xs="4">
                     <Card style={{ width: '20rem' }}>
                         <Card.Body className="projectCard">
                             <Card.Title className="cardTitle">{projects.title}</Card.Title>
@@ -53,9 +53,9 @@ function Project() {
                         </Card.Body>
                     </Card>
                     </Col>
+                    ))}
                 </Row>
             </Container>
-            ))}
         </div>
     );
 }
