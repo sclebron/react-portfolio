@@ -11,6 +11,12 @@ import fairFare from './images/fairFare.png';
 function Project() {
     const projects = [
         {
+            title: "Fair Fare",
+            img: fairFare,
+            description: "ahfdisl includes technologies used",
+            link: "google.com",
+        },
+        {
         title: "Zork for Dogs",
         img: zorkForDogs,
         description: "A text adventure game inspired by my dog, Peanut! \n Javascript",
@@ -21,12 +27,6 @@ function Project() {
         img: zorkForDogs,
         description: "ahfdisl includes technologies used",
         link: "https://sclebron.github.io/RealTimeCommodities/",
-        },
-        {
-        title: "Fair Fare",
-        img: fairFare,
-        description: "ahfdisl includes technologies used",
-        link: "google.com",
         },
         {
         title: "The Registry",
