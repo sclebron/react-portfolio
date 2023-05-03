@@ -11,10 +11,10 @@ import fairFare from './images/fairFare.png';
 function Project() {
     const projects = [
         {
-            title: "Fair Fare",
-            img: fairFare,
-            description: "ahfdisl includes technologies used",
-            link: "google.com",
+        title: "Fair Fare",
+        img: fairFare,
+        description: "ahfdisl includes technologies used",
+        link: "https://the-foo-d-s.netlify.app",
         },
         {
         title: "Zork for Dogs",
