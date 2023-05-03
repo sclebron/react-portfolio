@@ -1,6 +1,7 @@
 Row {
     display: flex;
     justify-content: center;
+    margin-bottom: 20%;
 }
 
 Col {
@@ -12,7 +13,6 @@ Col {
     position: relative;
     z-index: 1;
     background: white;
-    margin-bottom: 20%;
 }
 
 .cardTitle {
