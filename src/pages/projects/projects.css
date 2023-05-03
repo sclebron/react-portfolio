@@ -22,7 +22,7 @@ Col {
 
 .cardTitle:hover {
     text-decoration: underline;
-    cursor: grab;
+    cursor: pointer;
 }
 
 .cardImg {
