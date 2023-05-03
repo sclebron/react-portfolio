@@ -13,7 +13,7 @@ function Project() {
         {
         title: "Fair Fare",
         img: fairFare,
-        description: "ahfdisl includes technologies used",
+        description: "A restaurant review site that allows you to review individual dishes. \n Javascript, MySQL",
         link: "https://the-foo-d-s.netlify.app",
         },
         {
