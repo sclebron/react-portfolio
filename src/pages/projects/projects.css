@@ -18,11 +18,14 @@ Col {
 .cardTitle {
     text-align: center;
     color: black;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .cardTitle:hover {
     text-decoration: underline;
     cursor: pointer;
+    color: black;
 }
 
 .cardImg {
