@@ -62,3 +62,5 @@ function Project() {
 }
 
 export default Project;
+
+/*something is creating extra space on the right side */
