@@ -41,7 +41,7 @@ function Project() {
             <Particles />
             <div className="title">Projects</div>
             <Container className="projectCards">
-                <Row>
+                <Row className="d-flex justify-content-center">
                 {projects.map((projects) => (
                     <Col xs="4">
                     <Card style={{ width: '20rem' }}>
