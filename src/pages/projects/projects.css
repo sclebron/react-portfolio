@@ -8,12 +8,13 @@
     text-align: center;
     color: black;
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .cardTitle:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-size: 26px;
     cursor: pointer;
     color: black;
 }

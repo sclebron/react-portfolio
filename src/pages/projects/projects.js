@@ -44,7 +44,7 @@ function Project() {
                 <Row className="d-flex justify-content-center">
                 {projects.map((projects) => (
                     <Col xs="4">
-                    <Card style={{ width: '20rem' }}>
+                    <Card>
                         <Card.Body className="projectCard">
                             {/* <Card.Title className="cardTitle" href={projects.link} target="_blank">{projects.title}</Card.Title> */}
                             <a className="cardTitle" href={projects.link} target="_blank">{projects.title}</a>
@@ -62,5 +62,3 @@ function Project() {
 }
 
 export default Project;
-
-/*something is creating extra space on the right side */
