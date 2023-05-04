@@ -46,7 +46,6 @@ function Project() {
                     <Col xs="4">
                     <Card>
                         <Card.Body className="projectCard">
-                            {/* <Card.Title className="cardTitle" href={projects.link} target="_blank">{projects.title}</Card.Title> */}
                             <a className="cardTitle" href={projects.link} target="_blank">{projects.title}</a>
                             <Card.Img className="cardImg" src={projects.img} />
                             <Card.Text className="cardDescription">{projects.description}</Card.Text>

@@ -2,19 +2,19 @@
     position: relative;
     z-index: 1;
     background: white;
+    width: 25rem;
 }
 
 .cardTitle {
     text-align: center;
     color: black;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
 }
 
 .cardTitle:hover {
-    /* text-decoration: underline; */
-    font-size: 26px;
+    font-size: 27px;
     cursor: pointer;
     color: black;
 }
