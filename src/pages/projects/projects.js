@@ -33,6 +33,18 @@ function Project() {
         img: zorkForDogs,
         description: "Javascript, MongoDB, React",
         link: "google.com",
+        },
+        {
+        title: "National Parks",
+        img: zorkForDogs,
+        description: "Javascript, MongoDB, React",
+        link: "google.com",
+        },
+        {
+        title: "Ski Resorts Reviews",
+        img: zorkForDogs,
+        description: "Javascript, MongoDB, React",
+        link: "google.com",
         }
     ]
 
