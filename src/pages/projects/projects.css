@@ -3,6 +3,8 @@
     z-index: 1;
     background: white;
     width: 20rem;
+    display: flex;
+    justify-content: center;
 }
 
 .cardImg {
