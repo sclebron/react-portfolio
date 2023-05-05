@@ -6,11 +6,9 @@ import {
     DiNodejsSmall,
     DiMongodb,
     DiReact,
-    DiBootstrap,
     DiMysql,
-    DiVisualstudio,
 } from "react-icons/di";
-import { SiExpress, SiHandlebarsdotjs, SiGraphql } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import "./aboutMe.css";
 import Particles from './particles.jsx';
 
@@ -39,10 +37,6 @@ function AboutMe() {
                     <DiJsBadge className="icons" />
                     Javascript
                 </div>
-                {/* <div className="iconList">
-                    <DiVisualstudio className="icons" />
-                    Visual Studio
-                </div> */}
                 <div className="iconList">
                     <SiExpress className="icons" />
                     xpress
@@ -59,22 +53,10 @@ function AboutMe() {
                     <DiMysql className="icons" />
                     MySQL
                 </div>
-                {/* <div className="iconList">
-                    <SiHandlebarsdotjs className="icons" />
-                    Handlebars
-                </div> */}
-                {/* <div className="iconList">
-                    <DiBootstrap className="icons" />
-                    Bootstrap
-                </div> */}
                 <div className="iconList">
                     <DiMongodb className="icons" />
                     MongoDB
                 </div>
-                {/* <div className="iconList">
-                    <SiGraphql className="icons" />
-                    GraphQL
-                </div> */}
         </div>
     </div>
     );
