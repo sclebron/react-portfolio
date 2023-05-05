@@ -20,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: end;
-    margin: 50px auto;
+    margin-top: 20%;
     justify-content: space-between;
     width: 100%;
 }
