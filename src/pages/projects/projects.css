@@ -5,20 +5,6 @@
     width: 25rem;
 }
 
-.cardTitle {
-    text-align: center;
-    color: black;
-    font-size: 25px;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.cardTitle:hover {
-    font-size: 27px;
-    cursor: pointer;
-    color: black;
-}
-
 .cardImg {
     margin-bottom: 10px;
 }
@@ -29,7 +15,7 @@
     border: 2px solid black;
 }
 
-/* .linkBtn {
+.linkBtn {
     background: white;
     color: black;
     border: 2px solid black;
@@ -40,4 +26,4 @@
 .linkBtn:hover {
     background: black;
     color: white;
-} */
+}

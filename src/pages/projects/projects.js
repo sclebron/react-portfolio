@@ -58,10 +58,10 @@ function Project() {
                     <Col xs="4">
                     <Card>
                         <Card.Body className="projectCard">
-                            <a className="cardTitle" href={projects.link} target="_blank">{projects.title}</a>
+                            <Card.Title className="cardTitle">{projects.title}</Card.Title>
                             <Card.Img className="cardImg" src={projects.img} />
                             <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                            {/* <a className="linkBtn" href={projects.link} target="_blank">Go to app</a> */}
+                            <a className="linkBtn" href={projects.link} target="_blank">View site</a>
                         </Card.Body>
                     </Card>
                     </Col>
