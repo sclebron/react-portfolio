@@ -21,8 +21,10 @@
     flex-wrap: wrap;
     align-items: end;
     margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .iconList {
