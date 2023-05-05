@@ -16,7 +16,7 @@
     z-index: 1;
 }
 
-.aboutIcons {
+.technologies {
     display: flex;
     flex-wrap: wrap;
     align-items: end;

@@ -26,7 +26,7 @@ function AboutMe() {
                     <br />
                     When I'm not coding, I like to spend my time skiing, hiking, traveling, cooking, playing piano, being active, learning new things, and being with my boyfriend and our dog, Peanut!
                 </div>
-                <div className="aboutIcons">
+                <div className="technologies">
                     <div className="iconList">
                         <DiHtml5 className="icons" />
                         HTML 5
@@ -39,42 +39,42 @@ function AboutMe() {
                     <DiJsBadge className="icons" />
                     Javascript
                 </div>
-                <div className="iconList">
+                {/* <div className="iconList">
                     <DiVisualstudio className="icons" />
                     Visual Studio
-                </div>
-                <div className="iconList">
-                    <DiNodejsSmall className="icons" />
-                    NodeJS
-                </div>
+                </div> */}
                 <div className="iconList">
                     <SiExpress className="icons" />
                     xpress
-                </div>
-                <div className="iconList">
-                    <DiMysql className="icons" />
-                    MySQL
-                </div>
-                <div className="iconList">
-                    <SiHandlebarsdotjs className="icons" />
-                    Handlebars
-                </div>
-                <div className="iconList">
-                    <DiBootstrap className="icons" />
-                    Bootstrap
-                </div>
-                <div className="iconList">
-                    <DiMongodb className="icons" />
-                    MongoDB
                 </div>
                 <div className="iconList">
                     <DiReact className="icons" />
                     React
                 </div>
                 <div className="iconList">
+                    <DiNodejsSmall className="icons" />
+                    NodeJS
+                </div>
+                <div className="iconList">
+                    <DiMysql className="icons" />
+                    MySQL
+                </div>
+                {/* <div className="iconList">
+                    <SiHandlebarsdotjs className="icons" />
+                    Handlebars
+                </div> */}
+                {/* <div className="iconList">
+                    <DiBootstrap className="icons" />
+                    Bootstrap
+                </div> */}
+                <div className="iconList">
+                    <DiMongodb className="icons" />
+                    MongoDB
+                </div>
+                {/* <div className="iconList">
                     <SiGraphql className="icons" />
                     GraphQL
-                </div>
+                </div> */}
         </div>
     </div>
     );
