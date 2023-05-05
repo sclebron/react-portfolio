@@ -1,4 +1,16 @@
 import React from 'react';
+import {
+    DiHtml5,
+    DiCss3,
+    DiJsBadge,
+    DiNodejsSmall,
+    DiMongodb,
+    DiReact,
+    DiBootstrap,
+    DiMysql,
+    DiVisualstudio,
+} from "react-icons/di";
+import { SiExpress, SiHandlebarsdotjs, SiGraphql } from "react-icons/si";
 import "./aboutMe.css";
 import Particles from './particles.jsx';
 
@@ -14,7 +26,57 @@ function AboutMe() {
                     <br />
                     When I'm not coding, I like to spend my time skiing, hiking, traveling, cooking, playing piano, being active, learning new things, and being with my boyfriend and our dog, Peanut!
                 </div>
+                <div className="aboutIcons">
+                    <div className="iconList">
+                        <DiHtml5 className="icons" />
+                        HTML 5
+                    </div>
+                <div className="iconList">
+                    <DiCss3 className="icons" />
+                    CSS 3
+                </div>
+                <div className="iconList">
+                    <DiJsBadge className="icons" />
+                    Javascript
+                </div>
+                <div className="iconList">
+                    <DiVisualstudio className="icons" />
+                    Visual Studio
+                </div>
+                <div className="iconList">
+                    <DiNodejsSmall className="icons" />
+                    NodeJS
+                </div>
+                <div className="iconList">
+                    <SiExpress className="icons" />
+                    xpress
+                </div>
+                <div className="iconList">
+                    <DiMysql className="icons" />
+                    MySQL
+                </div>
+                <div className="iconList">
+                    <SiHandlebarsdotjs className="icons" />
+                    Handlebars
+                </div>
+                <div className="iconList">
+                    <DiBootstrap className="icons" />
+                    Bootstrap
+                </div>
+                <div className="iconList">
+                    <DiMongodb className="icons" />
+                    MongoDB
+                </div>
+                <div className="iconList">
+                    <DiReact className="icons" />
+                    React
+                </div>
+                <div className="iconList">
+                    <SiGraphql className="icons" />
+                    GraphQL
+                </div>
         </div>
+    </div>
     );
 }
 
