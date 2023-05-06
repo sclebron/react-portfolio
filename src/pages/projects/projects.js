@@ -58,9 +58,9 @@ function Project() {
                 {projects.map((projects) => (
                     <Col xs="4">
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img className="cardImg" src={projects.img} />
                             <Card.Body>
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
+                                <Card.Img className="cardImg" src={projects.img} />
                                 <Card.Text className="cardDescription">{projects.description}</Card.Text>
                                 <Button variant="primary" className="linkBtn" href={projects.link} target="_blank">Visit site</Button>
                             </Card.Body>
