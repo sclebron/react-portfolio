@@ -62,7 +62,7 @@ function Project() {
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
                                 <Card.Img className="cardImg" src={projects.img} />
                                 <Card.Text className="cardDescription">{projects.description}</Card.Text>
-                                <Button variant="primary" className="linkBtn" href={projects.link} target="_blank">Visit site</Button>
+                                <Button className="linkBtn" href={projects.link} target="_blank">Visit site</Button>
                             </Card.Body>
                         </Card>
                     </Col>
