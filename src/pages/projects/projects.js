@@ -57,7 +57,7 @@ function Project() {
                 <Row className="d-flex justify-content-center">
                 {projects.map((projects) => (
                     <Col xs="4">
-                        <Card style={{ width: '22rem' }} className="card">
+                        <Card className="card">
                             <Card.Body>
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
                                 <Card.Img className="cardImg" src={projects.img} />
