@@ -6,6 +6,10 @@
     margin-right: 0;
 }
 
+.col-4 {
+    width: 21rem;
+}
+
 .column {
     margin-left: 0;
     margin-right: 0;
