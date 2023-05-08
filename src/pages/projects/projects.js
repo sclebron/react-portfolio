@@ -56,7 +56,7 @@ function Project() {
             <Container className="projectCards">
                 <Row className="d-flex justify-content-center">
                 {projects.map((projects) => (
-                    <Col xs="4">
+                    <Col xs="4" className="column">
                         <Card className="card">
                             <Card.Body>
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
