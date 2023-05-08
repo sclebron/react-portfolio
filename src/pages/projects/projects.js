@@ -14,13 +14,13 @@ function Project() {
         {
         title: "Fair Fare",
         img: fairFare,
-        description: "A restaurant review site that allows you to review individual dishes. {'\n'} Javascript, MySQL",
+        description: "A restaurant review site that allows you to review individual dishes. \n Javascript, MySQL",
         link: "https://the-foo-d-s.netlify.app",
         },
         {
         title: "Zork for Dogs",
         img: zorkForDogs,
-        description: "A text adventure game inspired by my dog, Peanut! {'\n'} Javascript",
+        description: "A text adventure game inspired by my dog, Peanut! Javascript",
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
         {
@@ -57,7 +57,7 @@ function Project() {
                 {/* <Row className="d-flex justify-content-center"> */}
                 <Row className="row">
                 {projects.map((projects) => (
-                    <Col xs="4" className="column">
+                    <Col className="column">
                         <Card className="card">
                             <Card.Body>
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
