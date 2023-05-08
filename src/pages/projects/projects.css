@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .col-4 {
@@ -11,8 +9,6 @@
 }
 
 .column {
-    margin-left: 0;
-    margin-right: 0;
     width: 21rem;
 }
 
