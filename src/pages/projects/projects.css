@@ -4,6 +4,10 @@
     justify-content: space-around;
 }
 
+.col {
+    width: 21rem;
+}
+
 /* .col-4 {
     width: 21rem;
 } */
