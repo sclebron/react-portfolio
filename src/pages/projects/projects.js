@@ -54,7 +54,8 @@ function Project() {
             <Particles />
             <div className="title">Projects</div>
             <Container className="projectCards">
-                <Row className="d-flex justify-content-center">
+                {/* <Row className="d-flex justify-content-center"> */}
+                <Row className="row">
                 {projects.map((projects) => (
                     <Col xs="4" className="column">
                         <Card className="card">
