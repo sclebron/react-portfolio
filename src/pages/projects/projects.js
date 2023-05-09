@@ -14,7 +14,8 @@ function Project() {
         {
         title: "Fair Fare",
         img: fairFare,
-        description: "A restaurant review site that allows you to review individual dishes. \n Javascript, MySQL",
+        description: "A restaurant review site that allows you to review individual dishes.",
+        technologies: "Javascript, MYSQL",
         link: "https://the-foo-d-s.netlify.app",
         },
         {
@@ -54,7 +55,6 @@ function Project() {
             <Particles />
             <div className="title">Projects</div>
             <Container className="projectCards">
-                {/* <Row className="d-flex justify-content-center"> */}
                 <Row className="row">
                 {projects.map((projects) => (
                     <Col className="column">
@@ -62,7 +62,7 @@ function Project() {
                             <Card.Body>
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
                                 <Card.Img className="cardImg" src={projects.img} />
-                                <Card.Text className="cardDescription">{projects.description}</Card.Text>
+                                <Card.Text className="cardDescription">{projects.description} <br /> {projects.technologies}</Card.Text>
                                 <a className="linkBtn" href={projects.link} target="_blank">Visit site</a>
                             </Card.Body>
                         </Card>
