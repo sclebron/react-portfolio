@@ -5,17 +5,17 @@
 }
 
 .col {
-    width: 23rem;
+    width: 25rem;
 }
 
 .column {
-    width: 23rem;
+    width: 25rem;
 }
 
 .card {
     width: 23rem;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
     position: relative;
     z-index: 1;
     background: white;
