@@ -21,31 +21,36 @@ function Project() {
         {
         title: "Zork for Dogs",
         img: zorkForDogs,
-        description: "A text adventure game inspired by my dog, Peanut! Javascript",
+        description: "A text adventure game inspired by my dog, Peanut!",
+        technologies: "Javascript",
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
         {
         title: "Real-Time Commodities",
         img: zorkForDogs,
-        description: "View commodities and currency pricing beside relevant news articles from a particular timeframe. \n Javascript",
+        description: "View commodities and currency pricing beside relevant news articles from a particular timeframe.",
+        technologies: "Javascript",
         link: "https://sclebron.github.io/RealTimeCommodities/",
         },
         {
         title: "The Registry",
         img: zorkForDogs,
-        description: "Javascript, MongoDB, React",
+        description: "heioa",
+        technologies: "Javascript, MongoDB, React",
         link: "google.com",
         },
         {
         title: "National Parks",
         img: zorkForDogs,
-        description: "Javascript, MongoDB, React",
+        description: "hfidoap",
+        technologies: "ahfieo",
         link: "google.com",
         },
         {
         title: "Ski Resorts Reviews",
         img: zorkForDogs,
-        description: "Javascript, MongoDB, React",
+        description: "hfidoap",
+        technologies: "ahfieo",
         link: "google.com",
         }
     ]
