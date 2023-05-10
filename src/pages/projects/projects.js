@@ -16,7 +16,7 @@ function Project() {
         img: fairFare,
         description: "A restaurant review site that allows you to review individual dishes.",
         technologies: "Javascript, MYSQL",
-        link: "https://the-foo-d-s.netlify.app",
+        link: "https://the-foo-d-s-production.up.railway.app/",
         },
         {
         title: "Zork for Dogs",
