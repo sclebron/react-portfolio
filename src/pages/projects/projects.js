@@ -28,7 +28,7 @@ function Project() {
         {
         title: "Real-Time Commodities",
         img: zorkForDogs,
-        description: "View commodities and currency pricing beside relevant news articles from a particular timeframe.",
+        description: "View commodities, currency pricing, and news articles from a timeframe.",
         technologies: "Javascript",
         link: "https://sclebron.github.io/RealTimeCommodities/",
         },
