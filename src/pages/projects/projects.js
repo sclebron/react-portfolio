@@ -42,7 +42,7 @@ function Project() {
         {
         title: "National Parks",
         img: zorkForDogs,
-        description: "hfidoap",
+        description: "hfdiadis",
         technologies: "ahfieo",
         link: "google.com",
         },
