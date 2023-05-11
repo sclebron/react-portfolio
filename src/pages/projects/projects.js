@@ -23,7 +23,7 @@ function Project() {
         title: "Zork for Dogs",
         img: zorkForDogs,
         description: "A text adventure game inspired by my dog, Peanut!",
-        technologies: "Javascript",
+        technologies: "Javascript, jQuery",
         button: "Visit Site",
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
