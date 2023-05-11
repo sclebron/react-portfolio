@@ -52,12 +52,12 @@ function Project() {
         link: "google.com",
         },
         {
-        title: "Work Day Schedule",
+        title: "Work Day Scheduler",
         img: zorkForDogs,
         description: "hfidoap",
         technologies: "ahfieo",
         button: "Visit Site",
-        link: "google.com",
+        link: "https://sclebron.github.io/work-day-schedule/",
         }
     ]
 
