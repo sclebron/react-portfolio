@@ -28,7 +28,7 @@ function Project() {
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
         {
-        title: "README Generator",
+        title: "Employee Tracker",
         img: zorkForDogs,
         description: "View commodities, currency pricing, and news articles from a timeframe.",
         technologies: "Javascript",
@@ -36,15 +36,15 @@ function Project() {
         link: "https://sclebron.github.io/RealTimeCommodities/",
         },
         {
-        title: "Work Day Schedule",
+        title: "Team Profile Generator",
         img: zorkForDogs,
         description: "heioa",
         technologies: "Javascript, MongoDB, React",
-        button: "Visit Site",
+        button: "Watch Demo",
         link: "google.com",
         },
         {
-        title: "Employee Tracker",
+        title: "README Generator",
         img: zorkForDogs,
         description: "hfdiadis",
         technologies: "ahfieo",
@@ -52,11 +52,11 @@ function Project() {
         link: "google.com",
         },
         {
-        title: "Team Profile Generator",
+        title: "Work Day Schedule",
         img: zorkForDogs,
         description: "hfidoap",
         technologies: "ahfieo",
-        button: "Watch Demo",
+        button: "Visit Site",
         link: "google.com",
         }
     ]
