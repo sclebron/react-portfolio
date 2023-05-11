@@ -16,6 +16,7 @@ function Project() {
         img: fairFare,
         description: "A restaurant review site that allows you to review individual dishes.",
         technologies: "Javascript, MYSQL",
+        button: "Visit Site",
         link: "https://the-foo-d-s-production.up.railway.app/",
         },
         {
@@ -23,34 +24,39 @@ function Project() {
         img: zorkForDogs,
         description: "A text adventure game inspired by my dog, Peanut!",
         technologies: "Javascript",
+        button: "Visit Site",
         link: "https://sclebron.github.io/zork-for-dogs/",
         },
         {
-        title: "Real-Time Commodities",
+        title: "README Generator",
         img: zorkForDogs,
         description: "View commodities, currency pricing, and news articles from a timeframe.",
         technologies: "Javascript",
+        button: "Visit Site",
         link: "https://sclebron.github.io/RealTimeCommodities/",
         },
         {
-        title: "The Registry",
+        title: "Work Day Schedule",
         img: zorkForDogs,
         description: "heioa",
         technologies: "Javascript, MongoDB, React",
+        button: "Visit Site",
         link: "google.com",
         },
         {
-        title: "National Parks",
+        title: "Code Quiz",
         img: zorkForDogs,
         description: "hfdiadis",
         technologies: "ahfieo",
+        button: "Visit Site",
         link: "google.com",
         },
         {
-        title: "Ski Resorts Reviews",
+        title: "Team Profile Generator",
         img: zorkForDogs,
         description: "hfidoap",
         technologies: "ahfieo",
+        button: "Watch Demo",
         link: "google.com",
         }
     ]
@@ -68,7 +74,7 @@ function Project() {
                                 <Card.Title className="cardTitle">{projects.title}</Card.Title>
                                 <Card.Img className="cardImg" src={projects.img} />
                                 <Card.Text className="cardDescription">{projects.description} <br /> {projects.technologies}</Card.Text>
-                                <a className="linkBtn" href={projects.link} target="_blank">Visit site</a>
+                                <a className="linkBtn" href={projects.link} target="_blank">{projects.button}</a>
                             </Card.Body>
                         </Card>
                     </Col>
