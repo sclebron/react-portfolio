@@ -15,7 +15,7 @@ function Project() {
         title: "Fair Fare",
         img: fairFare,
         description: "A restaurant review site that allows you to review individual dishes.",
-        technologies: "Javascript, MYSQL",
+        technologies: "Javascript, MySQL, Tailwind CSS, Express Handlebars",
         button: "Visit Site",
         link: "https://the-foo-d-s-production.up.railway.app/",
         },
