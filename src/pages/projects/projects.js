@@ -44,11 +44,11 @@ function Project() {
         link: "google.com",
         },
         {
-        title: "Code Quiz",
+        title: "Employee Tracker",
         img: zorkForDogs,
         description: "hfdiadis",
         technologies: "ahfieo",
-        button: "Visit Site",
+        button: "Watch Demo",
         link: "google.com",
         },
         {
