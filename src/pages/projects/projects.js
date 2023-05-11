@@ -31,7 +31,7 @@ function Project() {
         title: "Employee Tracker",
         img: zorkForDogs,
         description: "View commodities, currency pricing, and news articles from a timeframe.",
-        technologies: "Javascript",
+        technologies: "Javascript, MySQL",
         button: "Visit Site",
         link: "https://sclebron.github.io/RealTimeCommodities/",
         },
