@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 import zorkForDogs from './images/zorkForDogs.png';
 import fairFare from './images/fairFare.png';
 import employeeTracker from './images/employeeTracker.png';
+import profile from './images/profile.png';
 import schedule from './images/schedule.png';
 
 function Project() {
@@ -39,11 +40,11 @@ function Project() {
         },
         {
         title: "Team Profile Generator",
-        img: zorkForDogs,
-        description: "heioa",
-        technologies: "Javascript, MongoDB, React",
+        img: profile,
+        description: "A command line application that generates a team profile.",
+        technologies: "Node.js, Inquirer",
         button: "Watch Demo",
-        link: "google.com",
+        link: "https://drive.google.com/file/d/19T7df7bgN-fr1euWY-5yfWXA7tfmdHGU/view",
         },
         {
         title: "README Generator",
