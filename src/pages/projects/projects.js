@@ -10,6 +10,7 @@ import zorkForDogs from './images/zorkForDogs.png';
 import fairFare from './images/fairFare.png';
 import employeeTracker from './images/employeeTracker.png';
 import profile from './images/profile.png';
+import readme from './images/readme.png';
 import schedule from './images/schedule.png';
 
 function Project() {
@@ -48,8 +49,8 @@ function Project() {
         },
         {
         title: "README Generator",
-        img: zorkForDogs,
-        description: "A command line application that generates a team profile.",
+        img: readme,
+        description: "A command line application that creates a README.md template",
         technologies: "ahfieo",
         button: "Watch Demo",
         link: "google.com",
