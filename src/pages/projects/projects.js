@@ -58,7 +58,7 @@ function Project() {
         {
         title: "Work Day Scheduler",
         img: schedule,
-        description: "A command line application that generates a team profile.",
+        description: "A planner that allows the user to add, edit, and delete events.",
         technologies: "ahfieo",
         button: "Visit Site",
         link: "https://sclebron.github.io/work-day-schedule/",
