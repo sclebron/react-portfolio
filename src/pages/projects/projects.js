@@ -51,9 +51,9 @@ function Project() {
         title: "README Generator",
         img: readme,
         description: "A command line application that creates a README.md template.",
-        technologies: "",
+        technologies: "Node.js, Inquirer",
         button: "Watch Demo",
-        link: "google.com",
+        link: "https://drive.google.com/file/d/11XjkS0KC7A9QlDNQUtZt6K0Wgza5aUhY/view",
         },
         {
         title: "Work Day Scheduler",
