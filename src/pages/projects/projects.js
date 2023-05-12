@@ -41,7 +41,7 @@ function Project() {
         {
         title: "Team Profile Generator",
         img: profile,
-        description: "A command line application that generates a team profile.",
+        description: "A command line application that generates an HTML webpage displaying team members.",
         technologies: "Node.js, Inquirer",
         button: "Watch Demo",
         link: "https://drive.google.com/file/d/19T7df7bgN-fr1euWY-5yfWXA7tfmdHGU/view",
