@@ -50,8 +50,8 @@ function Project() {
         {
         title: "README Generator",
         img: readme,
-        description: "A command line application that creates a README.md template",
-        technologies: "ahfieo",
+        description: "A command line application that creates a README.md template.",
+        technologies: "",
         button: "Watch Demo",
         link: "google.com",
         },
