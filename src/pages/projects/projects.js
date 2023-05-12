@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import zorkForDogs from './images/zorkForDogs.png';
 import fairFare from './images/fairFare.png';
+import employeeTracker from './images/employeeTracker.png';
 
 function Project() {
     const projects = [
@@ -29,8 +30,8 @@ function Project() {
         },
         {
         title: "Employee Tracker",
-        img: zorkForDogs,
-        description: "View commodities, currency pricing, and news articles from a timeframe.",
+        img: employeeTracker,
+        description: "",
         technologies: "Javascript, MySQL",
         button: "Visit Site",
         link: "https://sclebron.github.io/RealTimeCommodities/",
