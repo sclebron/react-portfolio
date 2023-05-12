@@ -31,10 +31,10 @@ function Project() {
         {
         title: "Employee Tracker",
         img: employeeTracker,
-        description: "",
-        technologies: "Javascript, MySQL",
-        button: "Visit Site",
-        link: "https://sclebron.github.io/RealTimeCommodities/",
+        description: "An employee tracking system",
+        technologies: "Node.js, Inquirer, MySQL",
+        button: "Watch Demo",
+        link: "https://drive.google.com/file/d/1WuRLfl9s8N_UCaedx0487WIIEZAjlplt/view",
         },
         {
         title: "Team Profile Generator",
