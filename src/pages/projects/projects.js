@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 import zorkForDogs from './images/zorkForDogs.png';
 import fairFare from './images/fairFare.png';
 import employeeTracker from './images/employeeTracker.png';
+import schedule from './images/schedule.png';
 
 function Project() {
     const projects = [
@@ -54,7 +55,7 @@ function Project() {
         },
         {
         title: "Work Day Scheduler",
-        img: zorkForDogs,
+        img: schedule,
         description: "hfidoap",
         technologies: "ahfieo",
         button: "Visit Site",
