@@ -49,7 +49,7 @@ function Project() {
         {
         title: "README Generator",
         img: zorkForDogs,
-        description: "hfdiadis",
+        description: "A command line application that generates a team profile.",
         technologies: "ahfieo",
         button: "Watch Demo",
         link: "google.com",
@@ -57,7 +57,7 @@ function Project() {
         {
         title: "Work Day Scheduler",
         img: schedule,
-        description: "hfidoap",
+        description: "A command line application that generates a team profile.",
         technologies: "ahfieo",
         button: "Visit Site",
         link: "https://sclebron.github.io/work-day-schedule/",
