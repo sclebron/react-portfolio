@@ -32,7 +32,7 @@ function Project() {
         {
         title: "Employee Tracker",
         img: employeeTracker,
-        description: "An employee tracking system",
+        description: "A command line application for tracking and adding employees.",
         technologies: "Node.js, Inquirer, MySQL",
         button: "Watch Demo",
         link: "https://drive.google.com/file/d/1WuRLfl9s8N_UCaedx0487WIIEZAjlplt/view",
