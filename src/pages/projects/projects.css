@@ -50,9 +50,7 @@
     color: white;
 }
 
-@media (min-width: 0px) and (max-width: 480px) {
-    .footer {
-        display: none;
-        visibility: hidden;
-    }
+.footer {
+    display: none;
+    visibility: hidden;
 }
