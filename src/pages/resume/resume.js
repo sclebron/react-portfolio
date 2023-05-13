@@ -11,9 +11,9 @@ function Resume () {
             <div className="title">Resume</div>
             <img src={resumeimg} className="resumeimg" />
             <div className="resumeDownload">
-                <a href={resume} download>
+                {/* <a href={resume} download>
                     <button className="btn btn-outline-light">Download Resume</button>
-                </a>
+                </a> */}
             </div>
         </div>
     );
