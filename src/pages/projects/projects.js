@@ -1,6 +1,6 @@
 import React from 'react';
 import "./projects.css";
-import '.../components/footer.css';
+// import '.../components/footer.css';
 import Particles from './particles.jsx';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
