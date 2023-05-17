@@ -20,8 +20,8 @@ function Project() {
         img: fairFare,
         description: "A restaurant review site that allows you to review individual dishes.",
         technologies: "JavaScript, MySQL, Express Handlebars",
-        button: "Visit Site",
-        link: "https://the-foo-d-s-production.up.railway.app/",
+        button: "Watch Demo",
+        link: "https://drive.google.com/file/d/18euNNTHnG0AEJiM52y-V3KS3Oz15tkUj/view",
         },
         {
         title: "Zork for Dogs",
