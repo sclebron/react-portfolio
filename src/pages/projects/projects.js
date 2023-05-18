@@ -21,7 +21,7 @@ function Project() {
         description: "A restaurant review site that allows you to review individual dishes.",
         technologies: "JavaScript, MySQL, Express Handlebars",
         button: "Watch Demo",
-        link: "https://drive.google.com/file/d/18euNNTHnG0AEJiM52y-V3KS3Oz15tkUj/view",
+        link: "https://drive.google.com/file/d/1OBknxErYsa4NeJtO_YZFQZu1aCZ2LnW2/view",
         },
         {
         title: "Zork for Dogs",
