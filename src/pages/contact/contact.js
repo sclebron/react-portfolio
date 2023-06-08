@@ -25,6 +25,10 @@ const Contact = () => {
         }
     }
 
+    const displayContactForm = () => {
+        
+    }
+
 return <div className="contactContainer">
         <Particles />
         <div class="title">Contact</div>
