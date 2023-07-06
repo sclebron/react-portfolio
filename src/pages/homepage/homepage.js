@@ -8,7 +8,7 @@ function Homepage() {
             <Particles />
             <text className="text">
                 Hello, I'm <mark className="name">Sophie LeBron.</mark> <br />
-                I'm a full stack developer.
+                I'm a cool full stack developer.
             </text>
         </div>
     );
