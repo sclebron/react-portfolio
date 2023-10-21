@@ -54,3 +54,12 @@
     display: none;
     visibility: hidden;
 } */
+
+@media screen and (max-width: 1400px) {
+    .card {
+        width: 20rem;
+        margin-left: 1rem;
+        margin-right: 0.75rem;
+        margin-bottom: 2rem;
+    }
+}
