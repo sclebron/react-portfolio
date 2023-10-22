@@ -56,8 +56,15 @@
 } */
 
 @media screen and (max-width: 1400px) {
+    .col {
+        width: 23rem;
+    }
+    
+    .column {
+        width: 23rem;
+    }
     .card {
-        width: 19rem;
+        width: 20rem;
         margin-left: 1rem;
         margin-right: 0.75rem;
         margin-bottom: 2rem;
