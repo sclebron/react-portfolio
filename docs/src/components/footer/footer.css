@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+}
+
+.footerIcon {
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.footerIcon:hover {
+    color: #E94560;
+}

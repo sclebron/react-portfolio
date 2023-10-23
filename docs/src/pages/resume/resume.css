@@ -1,0 +1,21 @@
+.resumeContainer {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumeimg {
+    height: 70vh;
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.resumeDownload:hover {
+    position: relative;
+    z-index: 1;
+}

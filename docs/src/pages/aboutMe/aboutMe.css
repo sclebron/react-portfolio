@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.bio {
+    text-align: center;
+    font-size: 23px;
+    background: black;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    position: relative;
+    z-index: 1;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.iconList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.icons {
+    position: relative;
+    z-index: 1;
+    height: 60px;
+    width: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+

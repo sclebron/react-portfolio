@@ -1,0 +1,22 @@
+.home {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 100px;
+}
+
+.name {
+    color: #E94560;
+    font-weight: 500;
+    background: transparent;
+}
